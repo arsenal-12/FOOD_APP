@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Product 5</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="product5.css" />
+  <style>
+    .scrollable-container {
+      height: 100vh; /* Adjust as needed */
+      overflow-y: scroll;
+    }
+    .dot-container {
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+    }
+    .dot {
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background-color: black;
+      margin: 0 5px;
+      cursor: pointer;
+    }
+    .splash-screen {
+      position: relative;
+      cursor: pointer;
+    }
+    /* Grey round shape pointer */
+    .product-5::before {
+      content: '';
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 20px;
+      height: 20px;
+      background-color: grey;
+      border-radius: 50%;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <div class="scrollable-container">
+    <div class="product-5" onclick="navigate(event)">
+      <div class="container-15">
+        <div class="arrow-left">
+          <img class="vector-1" src="../assets/vectors/vector12_x2.svg" />
+        </div>
+        <div class="search">
+          <img class="vector" src="../assets/vectors/vector45_x2.svg" />
+        </div>
+      </div>
+      <div class="container-9">
+        <div class="pngwing-12"></div>
+        <div class="container-12">
+          <p class="customize-your-burger-to-your-tastes-ultimate-experience">
+            <span class="customize-your-burger-to-your-tastes-ultimate-experience-sub-5"></span><span></span>
+          </p>
+          <div class="group-22">
+            <div class="spicy">Spicy</div>
+            <img class="group-20" src="../assets/vectors/group204_x2.svg" />
+            <div class="container-16">
+              <span class="mild">Mild</span>
+              <span class="hot">Hot</span>
+            </div>
+          </div>
+          <div class="group-27">
+            <div class="portion">Portion</div>
+            <div class="group-26">
+              <div class="group-25">
+                <div class="line-7"></div>
+              </div>
+              <div class="container">2</div>
+              <div class="group-24">
+                <img class="group-23" src="../assets/vectors/group232_x2.svg" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="toppings">Toppings</div>
+      <div class="frame-78">
+        <!-- Toppings content here -->
+      </div>
+      <div class="side-options">Side options</div>
+      <div class="frame-79">
+        <!-- Side options content here -->
+      </div>
+      <div class="container-2">
+        <div class="container-6">
+          <div class="total">Total</div>
+          <p class="container-1">
+            <span class="container-1-sub-4"></span><span></span>
+          </p>
+        </div>
+        <div class="group-45">
+          <span class="order-now">ORDER NOW</span>
+        </div>
+      </div>
+      <div class="dot-container">
+        <div class="dot" onclick="window.location.href='splashScreen.html'"></div>
+        <div class="dot" onclick="window.location.href='product1.html'"></div>
+        <div class="dot" onclick="window.location.href='product2.html'"></div>
+        <div class="dot" onclick="window.location.href='product3.html'"></div>
+        <div class="dot" onclick="window.location.href='product4.html'"></div>
+        <div class="dot" onclick="window.location.href='product5.html'"></div>
+        <div class="dot" onclick="window.location.href='payment.html'"></div>
+        <div class="dot" onclick="window.location.href='popUpMessage.html'"></div>
+      </div>
+    </div>
+  </div>
+  <script>
+    function navigate(event) {
+      const width = event.currentTarget.clientWidth;
+      const clickX = event.clientX - event.currentTarget.getBoundingClientRect().left;
+      const targetPage = clickX > width / 2 ? 'payment.html' : 'product4.html';
+      window.location.href = targetPage;
+    }
+  </script>
+</body>
+</html>

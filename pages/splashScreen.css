@@ -1,0 +1,62 @@
+body
+{ width:432px;
+  height: 700px;
+ }
+
+.splash-screen {
+  border-radius: 35px;
+  background: linear-gradient(171.57deg, #FF939B 0.7%, #EF2A39 64.69%);
+  display: flex;
+  flex-direction: column;
+  padding-top: 282px;
+  box-sizing: border-box;
+  align-items: center; /* Center horizontally */
+  justify-content: center; /* Center vertically */
+  width: 432px; /* Take full width of the viewport */
+  height: 700px;
+  position: absolute;
+  left:40%; /* Take full height of the viewport */
+}
+
+.splash-screen .ellipse-29 {
+  filter: blur(7px);
+  position: absolute;
+  top: 924px;
+  right: 100px;
+  width: 108px;
+  height: 12px;
+}
+.splash-screen .foodgo {
+  position: relative;
+  margin: 0 0 324px 129px;
+  display: inline-block;
+  align-self: center;
+  overflow-wrap: break-word;
+  font-family: 'Lobster';
+  font-weight: 400;
+  font-size: 60px;
+  color: #FFFFFF;
+  justify-content: center;
+}
+.splash-screen .container {
+  position: relative;
+  align-self: flex-start;
+  width: 246px;
+  height: 288px;
+  position: relative;
+  bottom:2405px;
+}
+.splash-screen .image-1 {
+  background: url('../assets/images/image1.png') 50% / cover no-repeat;
+  position: absolute;
+  right: 94px;
+  bottom: -28px;
+  width: 202px;
+  height: 202px;
+}
+.splash-screen .container {
+  position: relative;
+  align-self: flex-start;
+  width: 246px;
+  height: 288px;
+}

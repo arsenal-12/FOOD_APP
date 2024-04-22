@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pop up message</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="popUpMessage.css" />
+  <style>
+    .pop-up-message {
+      position: relative;
+      cursor: pointer;
+    }
+    .dot-container {
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+    }
+    .dot {
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background-color: black;
+      margin: 0 5px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+<div class="scroll-container">
+  <div class="pop-up-message" onclick="navigate(event)">
+    <div class="frame-1">
+      <div class="container">
+        <img class="line-14" src="../assets/vectors/line14_x2.svg" />
+        <img class="line-13" src="../assets/vectors/line13_x2.svg" />
+      </div>
+      <div class="success">Success !</div>
+      <div class="your-payment-was-successful-areceipt-for-this-purchase-has-been-sent-to-your-email">
+        Your payment was successful.<br />
+        A receipt for this purchase has been sent to your email.
+      </div>
+      <div class="group-59">
+        <span class="go-back">Go Back</span>
+      </div>
+      <div class="dot-container">
+        <div class="dot" onclick="window.location.href='splashScreen.html'"></div>
+        <div class="dot" onclick="window.location.href='product1.html'"></div>
+        <div class="dot" onclick="window.location.href='product2.html'"></div>
+        <div class="dot" onclick="window.location.href='product3.html'"></div>
+        <div class="dot" onclick="window.location.href='product4.html'"></div>
+        <div class="dot" onclick="window.location.href='product5.html'"></div>
+        <div class="dot" onclick="window.location.href='payment.html'"></div>
+        <div class="dot" onclick="window.location.href='popUpMessage.html'"></div>
+      </div>
+    </div>
+  </div>
+</div>
+<button onclick="navigateToCover()">Resize</button>
+
+<script>
+  function navigate(event) {
+    const width = event.currentTarget.clientWidth;
+    const clickX = event.clientX - event.currentTarget.getBoundingClientRect().left;
+    const targetPage = clickX > width / 2 ? 'splashScreen.html' : 'payment.html';
+    window.location.href = targetPage;
+    
+  }
+  function navigateToCover() {
+    window.location.href = 'cover.html'; // Adjust the URL if needed
+  }
+</script>
+</body>
+</html>

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>page2</title>
+<style>
+  .cover {
+    background: url('../assets/images/page2.png') 50% / cover no-repeat;
+    width: 100%; /* Adjust as needed */
+    height: 150vh; /* Adjust as needed */
+  }  .dot {
+    width: 10px;
+    height: 10px;
+    background-color: #007bff;
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+  }
+  .dot-container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: row;
+  }
+  .dot:nth-child(1) {
+    position: relative;
+    top: calc(50% - 50px);
+    left: 20%;
+  }
+  
+  .dot:nth-child(2) {
+    position: relative;
+    top: calc(50% - 30px);
+    top:35px;
+    left: 35%;
+  }
+  
+  .dot:nth-child(3) {
+    position: relative;
+    top: calc(50% - 10px);
+    top:70px;
+    left: 50%;
+  }
+  
+  .dot:nth-child(4) {
+    position: relative;
+    top: calc(50% + 10px);
+    top:100px;
+    left: 50%;
+  }
+  
+  .dot:nth-child(5) {
+    position: relative;
+    top: calc(50% + 30px);
+    top:140px;
+    left: 45px;
+  }
+  
+  .dot:nth-child(6) {
+    position: relative;
+    top: calc(50% + 50px);
+    top:200px;
+    left: -15px;
+  }
+  
+  .dot:nth-child(7) {
+    position: relative;
+    top: 240px;
+    left: -65px;
+    transform: translateX(-50%);
+  }
+  
+</style>
+</head>
+<body>
+  <div class="cover">
+  </div>
+  <div class="dot-container">
+    <div class="dot" onclick="window.location.href='cover.html'"></div>
+    <div class="dot" onclick="window.location.href='page1.html'"></div>
+    <div class="dot" onclick="window.location.href='page2.html'"></div>
+    <div class="dot" onclick="window.location.href='page3.html'"></div>
+    <div class="dot" onclick="window.location.href='page4.html'"></div>
+    <div class="dot" onclick="window.location.href='page5.html'"></div>
+  </div>
+<script>
+  let lastScrollPosition = window.pageYOffset || document.documentElement.scrollTop;
+
+  window.addEventListener('scroll', function() {
+    const currentScrollPosition = window.pageYOffset || document.documentElement.scrollTop;
+
+    // Check if scrolling up
+    if (currentScrollPosition < lastScrollPosition) {
+      console.log('Scrolling up');
+      // Redirect to page1.html
+      window.location.href = 'page1.html';
+    } else {
+      // Check if scrolling down to the bottom
+      const windowHeight = window.innerHeight;
+      const documentHeight = document.body.offsetHeight;
+      if (currentScrollPosition + windowHeight >= documentHeight) {
+        console.log('Scrolling down to the bottom');
+        // Redirect to page3.html
+        window.location.href = 'page3.html';
+      }
+    }
+
+    // Update the last scroll position
+    lastScrollPosition = currentScrollPosition;
+  });
+</script>
+</body>
+</html>

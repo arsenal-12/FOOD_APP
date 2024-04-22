@@ -1,0 +1,357 @@
+.product-3 .line-6 {
+  background: #FFFFFF;
+  position: absolute;
+  right: 115px;
+  bottom: 197px;
+  width: 10px;
+  height: 3px;
+}
+body {
+  width: 432px;
+  height: 700px;
+  width: 100vw; /* Set body width to full viewport width */
+  height: 100vh; /* Set body height to full viewport height */
+  margin: 0; /* Remove default margin */
+  overflow: hidden; /* Hide any overflowing content */
+  display: flex; /* Use flexbox to center content */
+  justify-content: center; /* Center content horizontally */
+  align-items: center; 
+  /* Center content vertically */
+}
+
+.product-3 {
+  overflow: hidden;
+  border: 1px solid black; /* Add a black border */
+  box-sizing: border-box;
+  width: 432px;
+  height: 700px;
+  max-width: 100%; /* Allow the product-1 container to take up full width */
+  max-height: 100vh; /* Set max height of product-1 to full viewport height */
+  overflow-y: auto; /* Enable vertical scrolling if needed */
+  padding: 28px 0; /* Adjust padding as needed */
+  border-radius: 35px;
+  background: #FFFFFF;
+  border-radius: 35px;
+  background: #FFFFFF;
+  box-sizing: border-box;}
+
+
+.product-3 .vector-1 {
+  width: 17px;
+  height: 15.2px;
+}
+.product-3 .arrow-left {
+  margin: 0.4px 0 4.4px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 17px;
+  height: 15.2px;
+  box-sizing: border-box;
+}
+.product-3 .vector {
+  width: 20px;
+  height: 20px;
+}
+.product-3 .search {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  box-sizing: border-box;
+}
+.product-3 .container-2 {
+  margin: 0 4px 1px 3.9px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: calc(100% - 7.9px);
+  box-sizing: border-box;
+}
+.product-3 .ellipse-8 {
+  filter: blur(15.5px);
+  position: relative;
+  width: 301px;
+  height: 40.4px;
+}
+.product-3 .image-11 {
+  background: url('../assets/images/image11.png') 50% / cover no-repeat;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  height: 100%;
+  height: 376.2px;
+  width: 400px;
+}
+.product-3 .group-19 {
+  position: relative;
+  margin-bottom: 25.8px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 280.6px 0 46.2px 4px;
+  width: 100%;
+  height: 367.2px;
+  box-sizing: border-box;
+}
+.product-3 .hamburger-chicken-burger {
+  margin: 0 4px 9px 4px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'Roboto';
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 1.347;
+  color: #3C2F2F;
+}
+.product-3 .vector-2 {
+  width: 16.1px;
+  height: 15.5px;
+}
+.product-3 .star {
+  margin: 2.1px 5px 2.5px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 16.1px;
+  height: 15.5px;
+  box-sizing: border-box;
+}
+.product-3 .container {
+  margin-right: 7.8px;
+  overflow-wrap: break-word;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 1.347;
+  color: #808080;
+}
+.product-3 .line-3 {
+  background: #A9A9A9;
+  margin: 10px 5px 9px 0;
+  width: 8px;
+  height: 1px;
+}
+.product-3 .mins {
+  overflow-wrap: break-word;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 1.347;
+  color: #808080;
+}
+.product-3 .group-9 {
+  margin: 0 4px 19px 4px;
+  display: flex;
+  flex-direction: row;
+  align-self: flex-start;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.product-3 .our-chicken-burger-is-adelicious-and-healthier-alternative-to-traditional-beef-burgers-perfect-for-those-looking-for-alighter-meal-option-try-it-today-and-experience-the-mouth-watering-flavors-of-our-hamburger-chicken-burger {
+  margin: 0 4px 69px 4px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 16px;
+  color: #6A6A6A;
+}
+.product-3 .spicy {
+  margin-bottom: 11px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.347;
+  color: #3C2F2F;
+}
+.product-3 .group-20 {
+  margin: 0 0 7px 3px;
+  width: 165px;
+  height: 14px;
+}
+.product-3 .mild {
+  margin-right: 8px;
+  width: 140px;
+  overflow-wrap: break-word;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.347;
+  color: #1CC019;
+}
+.product-3 .hot {
+  overflow-wrap: break-word;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.347;
+  color: #EF2A39;
+}
+.product-3 .container-4 {
+  margin-right: 0.7px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 167.3px;
+  box-sizing: border-box;
+}
+.product-3 .group-22 {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.product-3 .portion {
+  overflow-wrap: break-word;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.347;
+  color: #3C2F2F;
+}
+.product-3 .group-27 {
+  margin-bottom: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  box-sizing: border-box;
+}
+.product-3 .line-7 {
+  background: #FFFFFF;
+  width: 10px;
+  height: 3px;
+}
+.product-3 .group-25 {
+  border-radius: 10px;
+  background: #EF2A39;
+  position: relative;
+  margin-right: 6px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 20px 15px 17px 15px;
+  width: 40px;
+  height: 40px;
+  box-sizing: border-box;
+}
+.product-3 .container-3 {
+  margin-right: 9px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+}
+.product-3 .container-1 {
+  margin: 8px 15px 8px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.347;
+  color: #3C2F2F;
+}
+.product-3 .group-23 {
+  width: 10px;
+  height: 10px;
+}
+.product-3 .group-24 {
+  box-shadow: 0px 7px 13px 0px rgba(255, 153, 0, 0.31);
+  border-radius: 10px;
+  background: #EF2A39;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 15px;
+  width: 40px;
+  height: 40px;
+  box-sizing: border-box;
+}
+.product-3 .group-26 {
+  margin-top: 24px;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+.product-3 .container-5 {
+  margin-bottom: 3px;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+.product-3 .container-1 {
+  margin: 0 4px 73px 4px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: calc(100% - 8px);
+  box-sizing: border-box;
+}
+.product-3 .container-2 {
+  overflow-wrap: break-word;
+  font-family: 'Roboto';
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 1.347;
+  color: #FFFFFF;
+}
+.product-3 .group-29 {
+  box-shadow: 0px 9px 30px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  background: #EF2A39;
+  position: relative;
+  margin-right: 49px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 20px 17.9px 20px 17px;
+  flex-grow: 1;
+  flex-basis: 104px;
+  box-sizing: border-box;
+}
+.product-3 .order-now {
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.347;
+  color: #FFFFFF;
+}
+.product-3 .group-28 {
+  box-shadow: 0px 9px 30px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  background: #3C2F2F;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 23px 0.1px 23px 0;
+  flex-grow: 1;
+  flex-basis: 239px;
+  box-sizing: border-box;
+}
+.product-3 .container {
+  margin: 0 4px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: calc(100% - 8px);
+  box-sizing: border-box;
+}
+.product-3 {
+  border-radius: 35px;
+  background: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  padding: 28px 15px 34px 15px;
+  box-sizing: border-box;
+}

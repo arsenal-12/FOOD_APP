@@ -1,0 +1,98 @@
+.cover .home-page-full-1 {
+    border-radius: 38px;
+    background: url('../assets/images/homePageFull1.png');
+    position: absolute;
+
+    left: 95px;
+    bottom: -239px;
+    width: 949px;
+    height: 1244px;
+  }
+  .cover .ejournal {
+    overflow-wrap: break-word;
+    font-family: 'TT Commons', 'Roboto Condensed';
+    font-weight: 600;
+    font-size: 140px;
+    letter-spacing: 5.6px;
+    line-height: 1.2;
+    color: #FE3C8D;
+  }
+  .cover .frame-2 {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    box-sizing: border-box;
+  }
+  .cover .behance-dribbble {
+    align-self: flex-start;
+    overflow-wrap: break-word;
+    font-family: 'Roboto Mono';
+    font-weight: 400;
+    font-size: 40px;
+    letter-spacing: 1.6px;
+    color: #FFFFFF;
+  }
+  .behance-dribbble-sub181 {
+    font-family: 'Nunito', 'Roboto Condensed';
+    font-weight: 500;
+    font-size: 40px;
+    text-decoration-line: underline;
+    letter-spacing: 1.6px;
+    line-height: 1.333;
+    color: #FFFFFF;
+  }
+  .behance-dribbble-sub180 {
+    font-family: 'Nunito', 'Roboto Condensed';
+    font-weight: 500;
+    font-size: 40px;
+    letter-spacing: 1.6px;
+    line-height: 1.333;
+    color: #FFFFFF;
+  }
+  .behance-dribbble {
+    font-family: 'Nunito', 'Roboto Condensed';
+    font-weight: 500;
+    font-size: 40px;
+    text-decoration-line: underline;
+    letter-spacing: 1.6px;
+    line-height: 1.333;
+    color: #FFFFFF;
+  }
+  .cover .frame-3 {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+  }
+  .cover .case-study {
+    position: absolute;
+    right: 52.2px;
+    bottom: -13px;
+    overflow-wrap: break-word;
+    font-family: 'TT Commons', 'Roboto Condensed';
+    font-weight: 500;
+    font-size: 64px;
+    color: #FE8ABB;
+  }
+  .cover .frame-1 {
+    border-radius: 68px;
+    background: #120008;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 414px 0 448px 898.3px;
+    width: 1870px;
+    height: fit-content;
+    box-sizing: border-box;
+  }
+  .cover {
+    background: #410C23;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 25px;
+    width: 1920px;
+    box-sizing: border-box;
+  }
+  

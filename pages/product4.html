@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Product 4</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="product4.css" />
+  <style>
+    .dot-container {
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+    }
+    /* Style for the scrollable container */
+    .scroll-container {
+      height: 100vh; /* Adjust as needed */
+      overflow-y: auto;
+    }
+    .dot {
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background-color: black;
+      margin: 0 7px;
+      cursor: pointer;
+    }
+    .product-4 {
+      position: relative;
+      cursor: pointer;
+    }
+    /* Grey round shape pointer */
+    .product-4::before {
+      content: '';
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 20px;
+      height: 20px;
+      background-color: grey;
+      border-radius: 50%;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <div class="scroll-container">
+    <div class="product-4" onclick="navigate(event)">
+      <div class="line-6"></div>
+      <div class="container-2">
+        <div class="arrow-left">
+          <img class="vector-1" src="../assets/vectors/vector7_x2.svg" />
+        </div>
+        <div class="search">
+          <img class="vector" src="../assets/vectors/vector26_x2.svg" />
+        </div>
+      </div>
+      <div class="group-19">
+        <img class="ellipse-8" src="../assets/vectors/ellipse83_x2.svg" />
+        <div class="image-12"></div>
+        <img class="ellipse-9" src="../assets/vectors/ellipse9_x2.svg" />
+      </div>
+      <div class="fried-chicken-burger">
+        Fried Chicken Burger
+      </div>
+      <div class="group-9">
+        <div class="star">
+          <img class="vector-2" src="../assets/vectors/vector19_x2.svg" />
+        </div>
+        <span class="container">4.5</span>
+        <div class="line-3"></div>
+        <span class="mins">14 mins</span>
+      </div>
+      <div class="indulge-in-our-crispy-and-savory-fried-chicken-burger-made-with-ajuicy-chicken-patty-hand-breaded-and-deep-fried-to-perfection-served-on-awarm-bun-with-lettuce-tomato-and-acreamy-sauce">
+        Indulge in our crispy and savory Fried Chicken Burger, made with a juicy chicken patty, hand-breaded and deep-fried to perfection, served on a warm bun with lettuce, tomato, and a creamy sauce.
+      </div>
+      <div class="container-3">
+        <div class="group-22">
+          <div class="spicy">Spicy</div>
+          <img class="group-20" src="../assets/vectors/group202_x2.svg" />
+          <div class="container-5">
+            <span class="mild">Mild</span>
+            <span class="hot">Hot</span>
+          </div>
+        </div>
+        <div class="container">
+          <div class="container-4">
+            <div class="group-27">
+              <span class="portion">Portion</span>
+            </div>
+            <div class="group-25">
+              <div class="line-7"></div>
+            </div>
+          </div>
+          <div class="group-26">
+            <div class="container-1">4</div>
+            <div class="group-24">
+              <img class="group-23" src="../assets/vectors/group233_x2.svg" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-1">
+        <div class="group-29">
+          <span class="container-2">$26.99</span>
+        </div>
+        <div class="group-28">
+          <span class="order-now">ORDER NOW</span>
+        </div>
+      </div>
+      <div class="dot-container">
+        <div class="dot" onclick="window.location.href='splashScreen.html'"></div>
+        <div class="dot" onclick="window.location.href='product1.html'"></div>
+        <div class="dot" onclick="window.location.href='product2.html'"></div>
+        <div class="dot" onclick="window.location.href='product3.html'"></div>
+        <div class="dot" onclick="window.location.href='product4.html'"></div>
+        <div class="dot" onclick="window.location.href='product5.html'"></div>
+        <div class="dot" onclick="window.location.href='payment.html'"></div>
+        <div class="dot" onclick="window.location.href='popUpMessage.html'"></div>
+      </div>
+    </div>
+  </div>
+  <script>
+    function navigate(event) {
+      const width = event.currentTarget.clientWidth;
+      const clickX = event.clientX - event.currentTarget.getBoundingClientRect().left;
+      const targetPage = clickX > width / 2 ? 'product5.html' : 'product3.html';
+      window.location.href = targetPage;
+    }
+  </script>
+
+</body>
+</html>

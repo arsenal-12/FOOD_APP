@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>product 1</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="product1.css" />
+   <style> 
+    .dot-container {
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+    }
+    .product1 {
+      position: relative;
+      cursor: pointer;
+    }
+        /* Style for the scrollable container */
+        .scroll-container {
+          height: 100vh; /* Adjust as needed */
+          overflow-y: auto;
+        }
+    .dot {
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background-color: black;
+      margin: 0 5px;
+      cursor: pointer;
+    }
+  </style>
+  
+  </head>
+  <body>
+    <div class="scroll-container">
+
+    <div class="product-1" onclick="navigate(event)">
+      <div class="line-6">
+      </div>
+      <div class="container">
+        <div class="arrow-left">
+          <img class="vector-1" src="../assets/vectors/vector47_x2.svg" />
+        </div>
+        <div class="group-19">
+          <img class="ellipse-8" src="../assets/vectors/ellipse8_x2.svg" />
+          <div class="image-9">
+          </div>
+        </div>
+        <div class="search">
+          <img class="vector" src="../assets/vectors/vector15_x2.svg" />
+        </div>
+      </div>
+      <div class="cheeseburger-wendys-burger">
+        Cheeseburger Wendy&#39;s Burger
+      </div>
+      <div class="group-9">
+        <div class="star">
+          <img class="vector-2" src="../assets/vectors/vector49_x2.svg" />
+        </div>
+        <span class="container">
+          4.9
+        </span>
+        <div class="line-3">
+        </div>
+        <span class="mins">
+          26 mins
+        </span>
+      </div>
+      <div class="the-cheeseburger-wendys-burger-is-aclassic-fast-food-burger-that-packs-apunch-of-flavor-in-every-bite-made-with-ajuicy-beef-patty-cooked-to-perfection-its-topped-with-melted-american-cheese-crispy-lettuce-ripe-tomato-and-crunchy-pickles">
+        The Cheeseburger Wendy&#39;s Burger is a classic fast food burger that packs a punch of flavor in every bite. Made with a juicy beef patty cooked to perfection, it&#39;s topped with melted American cheese, crispy lettuce, ripe tomato, and crunchy pickles.
+      </div>
+      <div class="container-3">
+        <div class="group-22">
+          <div class="spicy">
+            Spicy
+          </div>
+          <img class="group-20" src="../assets/vectors/group203_x2.svg" />
+          <div class="container-5">
+            <span class="mild">
+              Mild
+            </span>
+            <span class="hot">
+              Hot
+            </span>
+          </div>
+        </div>
+        <div class="container-2">
+          <div class="container-4">
+            <div class="group-27">
+              <span class="portion">
+                Portion
+              </span>
+            </div>
+            <div class="group-25">
+              <div class="line-7">
+              </div>
+            </div>
+          </div>
+          <div class="group-26">
+            <div class="container-1">
+              2
+            </div>
+            <div class="group-24">
+              <img class="group-23" src="../assets/vectors/group23_x2.svg" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-1">
+        <div class="group-29">
+          <span class="container-2">
+            $8.24
+          </span>
+        </div>
+        <div class="group-28">
+          <span class="order-now">
+            ORDER NOW
+          </span>
+        </div>
+      </div>
+      <div class="dot-container">
+        <div class="dot" data-page="splashScreen.html"></div>
+        <div class="dot" data-page="product1.html"></div>
+        <div class="dot" data-page="product2.html"></div>
+        <div class="dot" data-page="product3.html"></div>
+        <div class="dot" data-page="product4.html"></div>
+        <div class="dot" data-page="product5.html"></div>
+        <div class="dot" data-page="payment.html"></div>
+        <div class="dot" data-page="popUpMessage.html"></div>
+      </div>
+    </div>
+
+  </div>
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script>
+    $(document).ready(function() {
+      // Handle dot click event
+      $('.dot').on('click', function(event) {
+        event.stopPropagation(); // Stop the event from propagating to the parent div
+        const page = $(this).data('page');
+        window.location.href = page;
+      });
+    });
+
+    function navigate(event) {
+      const width = event.currentTarget.offsetWidth;
+      const clickX = event.clientX - event.currentTarget.getBoundingClientRect().left;
+      const targetPage = clickX > width / 2 ? 'product2.html' : 'splashScreen.html';
+      window.location.href = targetPage;
+    }
+    function navigateTo(page) {
+      if (page === 'splashScreen.html') {
+        window.location.href = page;
+      } else {
+        const currentPage = window.location.pathname.split('/').pop();
+        const currentPageIndex = ['product1.html', 'product2.html', 'product3.html', 'product4.html', 'product5.html', 'payment.html', 'popUpMessage.html'].indexOf(currentPage);
+        const targetPageIndex = ['product1.html', 'product2.html', 'product3.html', 'product4.html', 'product5.html', 'payment.html', 'popUpMessage.html'].indexOf(page);
+        
+        if (currentPageIndex !== -1 && targetPageIndex !== -1) {
+          const difference = targetPageIndex - currentPageIndex;
+          window.history.go(difference);
+        } else {
+          window.location.href = page;
+        }
+      }
+  
+      // Add a class to the clicked dot to enlarge it
+      const dots = document.querySelectorAll('.dot');
+      dots.forEach(dot => {
+        dot.classList.remove('active');
+      });
+      const clickedDot = document.querySelector(`[data-page="${page}"]`);
+      clickedDot.classList.add('active');
+    };
+  </script>
+</body>
+</html>

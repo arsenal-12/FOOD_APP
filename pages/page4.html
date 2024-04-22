@@ -1,0 +1,1039 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>page4</title>
+    <link rel="stylesheet" href="page4.css" />
+    <style>
+        /* Style for the cover div */
+      .dot-container {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        display: flex;
+        flex-direction: row;
+      }
+      .dot:nth-child(1) {
+        position: relative;
+        top: calc(50% - 50px);
+        left: 20%;
+      }
+      
+      .dot:nth-child(2) {
+        position: relative;
+        top: calc(50% - 30px);
+        top:35px;
+        left: 35%;
+      }
+      
+      .dot:nth-child(3) {
+        position: relative;
+        top: calc(50% - 10px);
+        top:70px;
+        left: 50%;
+      }
+      
+      .dot:nth-child(4) {
+        position: relative;
+        top: calc(50% + 10px);
+        top:100px;
+        left: 50%;
+      }
+      
+      .dot:nth-child(5) {
+        position: relative;
+        top: calc(50% + 30px);
+        top:140px;
+        left: 45px;
+      }
+      
+      .dot:nth-child(6) {
+        position: relative;
+        top: calc(50% + 50px);
+        top:200px;
+        left: -15px;
+      }
+      
+      .dot:nth-child(7) {
+        position: relative;
+        top: 240px;
+        left: -65px;
+        transform: translateX(-50%);
+      }
+       for the cover div */
+   .cover {
+    background: url('../assets/images/cover.png') 50% / cover no-repeat;
+    width: calc(100% - 10px); /* Adjust as needed */
+    height: 100vh; /* Adjust as needed */
+    overflow-y: scroll; /* Enable vertical scrollbar */
+    position: relative; /* Set position to relative */
+    padding-right: 10px; /* Add padding to accommodate scrollbar */
+  }
+
+  /* Style for the custom scrollbar */
+  .cover::-webkit-scrollbar {
+    width: 6px; /* Width of the scrollbar */
+    height: 10px; /* Height of the scrollbar */
+  }
+
+  .cover::-webkit-scrollbar-thumb {
+    background-color: rgb(83, 15, 173); /* Color of the scrollbar thumb */
+    border-radius: 3px;
+    height: 1px; /* Adjust border-radius for rounded corners */
+  }
+
+  .cover::-webkit-scrollbar {
+    width: 6px; /* Width of the scrollbar */
+  }
+  
+  .cover::-webkit-scrollbar-track {
+    background-color: #1bf126; /* Color of the scrollbar track */
+    border-radius: 3px; /* Adjust border-radius for rounded corners */
+    box-shadow: inset 0 0 5px grey; /* Add shadow to track */
+    width: 4px; /* Adjust the width of the track */
+    height: 20px; /* Adjust the height of the track */
+    right: 10px; /* Adjust the distance from the right edge */
+  }
+  .dot {
+    width: 10px;
+    height: 10px;
+    background-color: #007bff;
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+  }
+ 
+  
+    </style>
+  </head>
+  <body>
+    <div class="ejournal">
+      <div class="frame-442">
+        <div class="menu-left-panel">
+        </div>
+        <div class="frame-441">
+          <div class="frame-440">
+            <div class="frame-5">
+              <div class="logo">
+                <img class="group-1" src="../assets/vectors/Unknown" />
+              </div>
+              <div class="vector-2">
+              </div>
+            </div>
+            <div class="frame-439">
+              <img class="sign" src="../assets/vectors/Unknown" />
+              <span class="title">
+              Imagination <br />
+              Lab <br />
+              School
+              </span>
+            </div>
+          </div>
+          <div class="frame-11">
+            <div class="top">
+              <div class="frame-9">
+                <div class="hints">
+                  <span class="main">
+                  Main
+                  </span>
+                </div>
+                <div class="line">
+                  <div class="menu-line">
+                    <div class="servers-databases-servers-databases">
+                      <img class="group-33" src="../assets/vectors/Unknown" />
+                    </div>
+                    <span class="container-31">
+                    Administration
+                    </span>
+                  </div>
+                  <div class="menu-line-1">
+                    <div class="interface-essentialchart-analytic-statistics">
+                      <img class="group-34" src="../assets/vectors/Unknown" />
+                    </div>
+                    <div class="container-32">
+                    Analytics/Reporting
+                    </div>
+                  </div>
+                  <div class="menu-line-2">
+                    <div class="divider-6">
+                    </div>
+                    <div class="content">
+                      <div class="school-learningbook-read-house">
+                        <img class="group-35" src="../assets/vectors/Unknown" />
+                      </div>
+                      <div class="container-33">
+                      E-Journal
+                      </div>
+                    </div>
+                  </div>
+                  <div class="menu-line-3">
+                    <div class="content-edittext-edit-pen-circle">
+                      <img class="group-36" src="../assets/vectors/Unknown" />
+                    </div>
+                    <div class="container-34">
+                    Testing
+                    </div>
+                  </div>
+                  <div class="menu-line-4">
+                    <div class="office-workemployee-video-call-camera">
+                      <div class="container-3">
+                        <img class="path-175" src="../assets/vectors/Unknown" />
+                        <div class="rectangle-2">
+                        </div>
+                        <img class="path-178" src="../assets/vectors/Unknown" />
+                      </div>
+                      <div class="container-7">
+                        <div class="container-2">
+                          <div class="oval-1">
+                          </div>
+                          <img class="path-177" src="../assets/vectors/Unknown" />
+                        </div>
+                        <img class="path-176" src="../assets/vectors/Unknown" />
+                      </div>
+                    </div>
+                    <div class="container-35">
+                    Online meetings
+                    </div>
+                  </div>
+                  <div class="menu-line-5">
+                    <div class="school-learningbook-user">
+                      <img class="group-37" src="../assets/vectors/Unknown" />
+                    </div>
+                    <div class="container-36">
+                    Teacher&#39;s office
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="frame-10">
+                <div class="hints-1">
+                  <span class="other">
+                  Other
+                  </span>
+                </div>
+                <div class="line-1">
+                  <div class="menu-line-6">
+                    <div class="internet-network-browser-internet-web-network-window-edit">
+                      <img class="group-38" src="../assets/vectors/Unknown" />
+                    </div>
+                    <span class="container-37">
+                    Website Builder
+                    </span>
+                  </div>
+                  <div class="menu-line-7">
+                    <div class="social-mediaubuntu">
+                      <img class="group-39" src="../assets/vectors/Unknown" />
+                    </div>
+                    <div class="container-38">
+                    Social
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="bottom">
+              <div class="interface-essential-settings">
+                <img class="group-40" src="../assets/vectors/Unknown" />
+              </div>
+              <div class="container-39">
+              Settings
+              </div>
+            </div>
+          </div>
+        </div>
+        <img class="arrow" src="../assets/vectors/Unknown" />
+      </div>
+      <div class="container-14">
+        <div class="header">
+          <div class="search-input">
+            <div class="leading">
+              <div class="cta">
+                <div class="interface-essential-search-loupe">
+                  <img class="group" src="../assets/vectors/Unknown" />
+                </div>
+                <div class="frame-12">
+                  <span class="ctrl-f">
+                  Ctrl f
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="filtrs">
+              <div class="hint">
+              Search in:
+              </div>
+              <div class="frame-13">
+                <div class="frame-3">
+                  <span class="pupils">
+                  Pupils
+                  </span>
+                </div>
+                <div class="tags">
+                  <span class="container-3">
+                  Teachers
+                  </span>
+                </div>
+                <div class="tags-1">
+                  <span class="container-4">
+                  Tests
+                  </span>
+                </div>
+                <div class="frame-4">
+                  <span class="emagazine">
+                  E-Magazine
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="container-13">
+            <div class="frame-16">
+              <div class="frame-15">
+                <img class="path-2" src="../assets/vectors/Unknown" />
+              </div>
+            </div>
+            <div class="ellipse-4">
+            </div>
+            <img class="menu" src="../assets/vectors/Unknown" />
+          </div>
+          <div class="icon-body-1">
+            <div class="frame-14">
+            </div>
+          </div>
+          <img class="union" src="../assets/vectors/Unknown" />
+        </div>
+        <div class="container-15">
+          <div class="frame-17">
+            <span class="planning-lessons">
+            Planning lessons 
+            </span>
+            
+          </div>
+          
+          <div class="container-4">
+            <div class="cta-1">
+              <span class="add-an-event">
+              Add an event
+              </span>
+            </div>
+            <div class="update">
+              <img class="group-3" src="../assets/vectors/Unknown" />
+            </div>
+            <div class="update-1">
+              <img class="group-4" src="../assets/vectors/Unknown" />
+            </div>
+          </div>
+        </div>
+        <div class="frame-82">
+          <div class="tags-2">
+            <span class="container">
+            25.03 - 31.03
+            </span>
+            <div class="arrows-diagrams-arrow">
+              <img class="path-12" src="../assets/vectors/Unknown" />
+            </div>
+          </div>
+          <div class="frame-83">
+            <div class="tags-3">
+              <span class="today">
+              Today
+              </span>
+            </div>
+            <div class="tags-4">
+              <span class="week">
+              Week
+              </span>
+            </div>
+            <div class="tags-5">
+              <span class="month">
+              Month
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="container-9">
+          <div class="tags-day-week">
+            <div class="week-1">
+            Week
+            </div>
+            <span class="container-1">
+            13
+            </span>
+          </div>
+          <div class="date-stack">
+            <div class="tags-day-week-1">
+              <span class="container-5">
+              Monday
+              </span>
+              <span class="container-6">
+              25.03
+              </span>
+            </div>
+            <div class="tags-day-week-2">
+              <span class="container-7">
+              Tuesday
+              </span>
+              <span class="container-8">
+              26.03
+              </span>
+            </div>
+            <div class="tags-day-week-3">
+              <span class="container-9">
+              Wednesday
+              </span>
+              <span class="container-10">
+              27.03
+              </span>
+            </div>
+            <div class="tags-day-week-4">
+              <span class="container-11">
+              Thursday
+              </span>
+              <span class="container-12">
+              28.03
+              </span>
+            </div>
+            <div class="tags-day-week-5">
+              <span class="container-13">
+              Friday
+              </span>
+              <span class="container-14">
+              29.03
+              </span>
+            </div>
+            <div class="tags-day-week-6">
+              <span class="container-15">
+              Saturday
+              </span>
+              <span class="container-16">
+              30.03
+              </span>
+            </div>
+            <div class="tags-day-week-7">
+              <span class="container-17">
+              Sunday
+              </span>
+              <span class="container-18">
+              31.03
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="container-10">
+          <div class="time-line">
+            <div class="frame-29">
+              <div class="time-1">
+              8:00
+              </div>
+              <div class="divider">
+              </div>
+              <span class="time-2">
+              9:20
+              </span>
+            </div>
+            <div class="frame-33">
+              <div class="divider-1">
+              </div>
+              <span class="time-3">
+              10:40
+              </span>
+            </div>
+            <div class="frame-35">
+              <div class="divider-2">
+              </div>
+              <span class="time-4">
+              12:00
+              </span>
+            </div>
+            <div class="frame-36">
+              <div class="divider-3">
+              </div>
+              <span class="time-5">
+              13:20
+              </span>
+            </div>
+            <div class="frame-37">
+              <div class="divider-4">
+              </div>
+              <span class="time-6">
+              14:40
+              </span>
+            </div>
+            <div class="frame-38">
+              <div class="divider-5">
+              </div>
+              <span class="time-7">
+              13:00
+              </span>
+            </div>
+          </div>
+          <div class="container-8">
+            <div class="card-subject">
+              <div class="frame-89">
+                <div class="frame-88">
+                  <div class="day-week">
+                    <img class="group-5" src="../assets/vectors/Unknown" />
+                  </div>
+                  <div class="frame-87">
+                    <span class="mathematics">
+                    Mathematics
+                    </span>
+                  </div>
+                </div>
+                <div class="frame-90">
+                  <span class="ms-simpsons">
+                  Ms. Simpson’s
+                  </span>
+                  <div class="ellipse-5">
+                  </div>
+                  <div class="frame-351">
+                    <div class="furniturefront-door-1">
+                      <img class="group-6" src="../assets/vectors/Unknown" />
+                    </div>
+                    <span class="container-2">
+                    24
+                    </span>
+                  </div>
+                </div>
+                <span class="aquarterly-test-in-the-subject-of-mathematical-analysis-and-matrix-multiplication">
+                A quarterly test in the subject of mathematical analysis and matrix multiplication. 
+                </span>
+              </div>
+              <p class="minutes">
+              <span class="minutes-sub-15"></span><span></span>
+              </p>
+            </div>
+            <div class="card-subject-1">
+              <div class="frame-881">
+                <div class="day-week-1">
+                  <div class="container-5">
+                    <img class="path-27" src="../assets/vectors/Unknown" />
+                    <div class="rectangle">
+                    </div>
+                    <img class="path-30" src="../assets/vectors/Unknown" />
+                  </div>
+                  <div class="container-11">
+                    <div class="container-1">
+                      <img class="oval" src="../assets/vectors/Unknown" />
+                      <img class="path-29" src="../assets/vectors/Unknown" />
+                    </div>
+                    <img class="path-28" src="../assets/vectors/Unknown" />
+                  </div>
+                </div>
+                <div class="frame-871">
+                  <span class="mathematics-1">
+                  Online meeting 
+                  </span>
+                </div>
+              </div>
+              <div class="frame-901">
+                <span class="ms-simpsons-1">
+                10:40 - 11:00
+                </span>
+              </div>
+            </div>
+            <div class="card-subject-14">
+              <div class="frame-8912">
+                <div class="frame-8814">
+                  <div class="day-week-14">
+                    <img class="group-30" src="../assets/vectors/Unknown" />
+                  </div>
+                  <div class="frame-8714">
+                    <span class="mathematics-14">
+                    Mathematics
+                    </span>
+                  </div>
+                </div>
+                <div class="frame-9014">
+                  <span class="ms-simpsons-14">
+                  Brainiacs
+                  </span>
+                  <div class="ellipse-512">
+                  </div>
+                  <div class="frame-3513">
+                    <div class="furniturefront-door-112">
+                      <img class="group-31" src="../assets/vectors/Unknown" />
+                    </div>
+                    <span class="container-30">
+                    24
+                    </span>
+                  </div>
+                </div>
+                <span class="aquarterly-test-in-the-subject-of-mathematical-analysis-and-matrix-multiplication-12">
+                A quarterly test in the subject of mathematical analysis and matrix multiplication. 
+                </span>
+              </div>
+              <p class="minutes-12">
+              <span class="minutes-12-sub-15"></span><span></span>
+              </p>
+            </div>
+          </div>
+          <div class="container">
+            <div class="card-subject-3">
+              <div class="frame-891">
+                <div class="frame-883">
+                  <div class="day-week-3">
+                    <img class="group-8" src="../assets/vectors/Unknown" />
+                  </div>
+                  <div class="frame-873">
+                    <span class="mathematics-3">
+                    Mathematics
+                    </span>
+                  </div>
+                </div>
+                <div class="frame-903">
+                  <span class="ms-simpsons-3">
+                  Ms. Simpson’s 
+                  </span>
+                  <div class="ellipse-51">
+                  </div>
+                  <div class="frame-352">
+                    <div class="furniturefront-door-11">
+                      <img class="group-9" src="../assets/vectors/Unknown" />
+                    </div>
+                    <span class="container-19">
+                    24
+                    </span>
+                  </div>
+                </div>
+                <span class="aquarterly-test-in-the-subject-of-mathematical-analysis-and-matrix-multiplication-1">
+                A quarterly test in the subject of mathematical analysis and matrix multiplication. 
+                </span>
+              </div>
+              <p class="minutes-1">
+              <span class="minutes-1-sub-15"></span><span></span>
+              </p>
+            </div>
+            <div class="card-subject-7">
+              <div class="frame-895">
+                <div class="frame-887">
+                  <div class="day-week-7">
+                    <img class="group-16" src="../assets/vectors/Unknown" />
+                  </div>
+                  <div class="frame-877">
+                    <span class="mathematics-7">
+                    Mathematics
+                    </span>
+                  </div>
+                </div>
+                <div class="frame-907">
+                  <span class="ms-simpsons-7">
+                  Brainiacs
+                  </span>
+                  <div class="ellipse-55">
+                  </div>
+                  <div class="frame-356">
+                    <div class="furniturefront-door-15">
+                      <img class="group-17" src="../assets/vectors/Unknown" />
+                    </div>
+                    <span class="container-23">
+                    24
+                    </span>
+                  </div>
+                </div>
+                <span class="aquarterly-test-in-the-subject-of-mathematical-analysis-and-matrix-multiplication-5">
+                A quarterly test in the subject of mathematical analysis and matrix multiplication. 
+                </span>
+              </div>
+              <p class="minutes-5">
+              <span class="minutes-5-sub-15"></span><span></span>
+              </p>
+            </div>
+          </div>
+          <div class="container-16">
+            <div class="card-subject-4">
+              <div class="frame-892">
+                <div class="frame-884">
+                  <div class="day-week-4">
+                    <img class="group-10" src="../assets/vectors/Unknown" />
+                  </div>
+                  <div class="frame-874">
+                    <span class="mathematics-4">
+                    Mathematics
+                    </span>
+                  </div>
+                </div>
+                <div class="frame-904">
+                  <span class="ms-simpsons-4">
+                  Brainiacs
+                  </span>
+                  <div class="ellipse-52">
+                  </div>
+                  <div class="frame-353">
+                    <div class="furniturefront-door-12">
+                      <img class="group-11" src="../assets/vectors/Unknown" />
+                    </div>
+                    <span class="container-20">
+                    24
+                    </span>
+                  </div>
+                </div>
+                <span class="aquarterly-test-in-the-subject-of-mathematical-analysis-and-matrix-multiplication-2">
+                A quarterly test in the subject of mathematical analysis and matrix multiplication. 
+                </span>
+              </div>
+              <p class="minutes-2">
+              <span class="minutes-2-sub-15"></span><span></span>
+              </p>
+            </div>
+            <div class="card-subject-8">
+              <div class="frame-896">
+                <div class="frame-888">
+                  <div class="day-week-8">
+                    <img class="group-18" src="../assets/vectors/Unknown" />
+                  </div>
+                  <div class="frame-878">
+                    <span class="mathematics-8">
+                    Mathematics
+                    </span>
+                  </div>
+                </div>
+                <div class="frame-908">
+                  <span class="ms-simpsons-8">
+                  Brainiacs
+                  </span>
+                  <div class="ellipse-56">
+                  </div>
+                  <div class="frame-357">
+                    <div class="furniturefront-door-16">
+                      <img class="group-19" src="../assets/vectors/Unknown" />
+                    </div>
+                    <span class="container-24">
+                    24
+                    </span>
+                  </div>
+                </div>
+                <span class="aquarterly-test-in-the-subject-of-mathematical-analysis-and-matrix-multiplication-6">
+                A quarterly test in the subject of mathematical analysis and matrix multiplication. 
+                </span>
+              </div>
+              <p class="minutes-6">
+              <span class="minutes-6-sub-15"></span><span></span>
+              </p>
+            </div>
+            <div class="card-subject-11">
+              <div class="frame-899">
+                <div class="frame-8811">
+                  <div class="day-week-11">
+                    <img class="group-24" src="../assets/vectors/Unknown" />
+                  </div>
+                  <div class="frame-8711">
+                    <span class="mathematics-11">
+                    Mathematics
+                    </span>
+                  </div>
+                </div>
+                <div class="frame-9011">
+                  <span class="ms-simpsons-11">
+                  Ms. Simpson’s 
+                  </span>
+                  <div class="ellipse-59">
+                  </div>
+                  <div class="frame-3510">
+                    <div class="furniturefront-door-19">
+                      <img class="group-25" src="../assets/vectors/Unknown" />
+                    </div>
+                    <span class="container-27">
+                    24
+                    </span>
+                  </div>
+                </div>
+                <span class="aquarterly-test-in-the-subject-of-mathematical-analysis-and-matrix-multiplication-9">
+                A quarterly test in the subject of mathematical analysis and matrix multiplication. 
+                </span>
+              </div>
+              <p class="minutes-9">
+              <span class="minutes-9-sub-15"></span><span></span>
+              </p>
+            </div>
+          </div>
+          <div class="container-17">
+            <div class="card-subject-5">
+              <div class="frame-893">
+                <div class="frame-885">
+                  <div class="day-week-5">
+                    <img class="group-12" src="../assets/vectors/Unknown" />
+                  </div>
+                  <div class="frame-875">
+                    <span class="mathematics-5">
+                    Mathematics
+                    </span>
+                  </div>
+                </div>
+                <div class="frame-905">
+                  <span class="ms-simpsons-5">
+                  Ms. Simpson’s 
+                  </span>
+                  <div class="ellipse-53">
+                  </div>
+                  <div class="frame-354">
+                    <div class="furniturefront-door-13">
+                      <img class="group-13" src="../assets/vectors/Unknown" />
+                    </div>
+                    <span class="container-21">
+                    24
+                    </span>
+                  </div>
+                </div>
+                <span class="aquarterly-test-in-the-subject-of-mathematical-analysis-and-matrix-multiplication-3">
+                A quarterly test in the subject of mathematical analysis and matrix multiplication. 
+                </span>
+              </div>
+              <p class="minutes-3">
+              <span class="minutes-3-sub-15"></span><span></span>
+              </p>
+            </div>
+            <div class="card-subject-9">
+              <div class="frame-897">
+                <div class="frame-889">
+                  <div class="day-week-9">
+                    <img class="group-20" src="../assets/vectors/Unknown" />
+                  </div>
+                  <div class="frame-879">
+                    <span class="mathematics-9">
+                    Mathematics
+                    </span>
+                  </div>
+                </div>
+                <div class="frame-909">
+                  <span class="ms-simpsons-9">
+                  Brainiacs
+                  </span>
+                  <div class="ellipse-57">
+                  </div>
+                  <div class="frame-358">
+                    <div class="furniturefront-door-17">
+                      <img class="group-21" src="../assets/vectors/Unknown" />
+                    </div>
+                    <span class="container-25">
+                    24
+                    </span>
+                  </div>
+                </div>
+                <span class="aquarterly-test-in-the-subject-of-mathematical-analysis-and-matrix-multiplication-7">
+                A quarterly test in the subject of mathematical analysis and matrix multiplication. 
+                </span>
+              </div>
+              <p class="minutes-7">
+              <span class="minutes-7-sub-15"></span><span></span>
+              </p>
+            </div>
+            <div class="card-subject-12">
+              <div class="frame-8910">
+                <div class="frame-8812">
+                  <div class="day-week-12">
+                    <img class="group-26" src="../assets/vectors/Unknown" />
+                  </div>
+                  <div class="frame-8712">
+                    <span class="mathematics-12">
+                    Mathematics
+                    </span>
+                  </div>
+                </div>
+                <div class="frame-9012">
+                  <span class="ms-simpsons-12">
+                  Brainiacs
+                  </span>
+                  <div class="ellipse-510">
+                  </div>
+                  <div class="frame-3511">
+                    <div class="furniturefront-door-110">
+                      <img class="group-27" src="../assets/vectors/Unknown" />
+                    </div>
+                    <span class="container-28">
+                    24
+                    </span>
+                  </div>
+                </div>
+                <span class="aquarterly-test-in-the-subject-of-mathematical-analysis-and-matrix-multiplication-10">
+                A quarterly test in the subject of mathematical analysis and matrix multiplication. 
+                </span>
+              </div>
+              <p class="minutes-10">
+              <span class="minutes-10-sub-15"></span><span></span>
+              </p>
+            </div>
+          </div>
+          <div class="container-12">
+            <div class="card-subject-6">
+              <div class="frame-894">
+                <div class="frame-886">
+                  <div class="day-week-6">
+                    <img class="group-14" src="../assets/vectors/Unknown" />
+                  </div>
+                  <div class="frame-876">
+                    <span class="mathematics-6">
+                    Mathematics
+                    </span>
+                  </div>
+                </div>
+                <div class="frame-906">
+                  <span class="ms-simpsons-6">
+                  Ms. Simpson’s 
+                  </span>
+                  <div class="ellipse-54">
+                  </div>
+                  <div class="frame-355">
+                    <div class="furniturefront-door-14">
+                      <img class="group-15" src="../assets/vectors/Unknown" />
+                    </div>
+                    <span class="container-22">
+                    24
+                    </span>
+                  </div>
+                </div>
+                <span class="aquarterly-test-in-the-subject-of-mathematical-analysis-and-matrix-multiplication-4">
+                A quarterly test in the subject of mathematical analysis and matrix multiplication. 
+                </span>
+              </div>
+              <p class="minutes-4">
+              <span class="minutes-4-sub-15"></span><span></span>
+              </p>
+            </div>
+            <div class="card-subject-10">
+              <div class="frame-898">
+                <div class="frame-8810">
+                  <div class="day-week-10">
+                    <img class="group-22" src="../assets/vectors/Unknown" />
+                  </div>
+                  <div class="frame-8710">
+                    <span class="mathematics-10">
+                    Mathematics
+                    </span>
+                  </div>
+                </div>
+                <div class="frame-9010">
+                  <span class="ms-simpsons-10">
+                  Brainiacs
+                  </span>
+                  <div class="ellipse-58">
+                  </div>
+                  <div class="frame-359">
+                    <div class="furniturefront-door-18">
+                      <img class="group-23" src="../assets/vectors/Unknown" />
+                    </div>
+                    <span class="container-26">
+                    24
+                    </span>
+                  </div>
+                </div>
+                <span class="aquarterly-test-in-the-subject-of-mathematical-analysis-and-matrix-multiplication-8">
+                A quarterly test in the subject of mathematical analysis and matrix multiplication. 
+                </span>
+              </div>
+              <p class="minutes-8">
+              <span class="minutes-8-sub-15"></span><span></span>
+              </p>
+            </div>
+            <div class="card-subject-13">
+              <div class="frame-8911">
+                <div class="frame-8813">
+                  <div class="day-week-13">
+                    <img class="group-28" src="../assets/vectors/Unknown" />
+                  </div>
+                  <div class="frame-8713">
+                    <span class="mathematics-13">
+                    Mathematics
+                    </span>
+                  </div>
+                </div>
+                <div class="frame-9013">
+                  <span class="ms-simpsons-13">
+                  Ms. Simpson’s 
+                  </span>
+                  <div class="ellipse-511">
+                  </div>
+                  <div class="frame-3512">
+                    <div class="furniturefront-door-111">
+                      <img class="group-29" src="../assets/vectors/Unknown" />
+                    </div>
+                    <span class="container-29">
+                    24
+                    </span>
+                  </div>
+                </div>
+                <span class="aquarterly-test-in-the-subject-of-mathematical-analysis-and-matrix-multiplication-11">
+                A quarterly test in the subject of mathematical analysis and matrix multiplication. 
+                </span>
+              </div>
+              <p class="minutes-11">
+              <span class="minutes-11-sub-15"></span><span></span>
+              </p>
+            </div>
+          </div>
+          <div class="card-subject-2">
+            <div class="frame-882">
+              <div class="day-week-2">
+                <img class="group-7" src="../assets/vectors/Unknown" />
+              </div>
+              <div class="frame-872">
+                <span class="mathematics-2">
+                Planning a quarter
+                </span>
+              </div>
+            </div>
+            <div class="frame-902">
+              <span class="ms-simpsons-2">
+              08:00 - 09:00
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="point">
+          <div class="point-1">
+            <img class="rectangle-11" src="../assets/vectors/Unknown" />
+            <span class="time">
+            10:01
+            </span>
+          </div>
+          <img class="container-6" src="../assets/vectors/Unknown" />
+          <div class="frame-85">
+            <img class="divider-stroke-4" src="../assets/vectors/Unknown" />
+            <img class="divider-stroke-5" src="../assets/vectors/Unknown" />
+          </div>
+        </div>
+      </div>
+      <div class="rectangle-26">
+      </div>
+      <div class="cover">
+      </div>
+      <div class="dot-container">
+        <div class="dot" onclick="window.location.href='cover.html'"></div>
+        <div class="dot" onclick="window.location.href='page1.html'"></div>
+        <div class="dot" onclick="window.location.href='page2.html'"></div>
+        <div class="dot" onclick="window.location.href='page3.html'"></div>
+        <div class="dot" onclick="window.location.href='page4.html'"></div>
+        <div class="dot" onclick="window.location.href='page5.html'"></div>
+      </div>
+    </div>
+    <script>
+      let lastScrollPosition = window.pageYOffset || document.documentElement.scrollTop;
+    
+      window.addEventListener('scroll', function() {
+        const currentScrollPosition = window.pageYOffset || document.documentElement.scrollTop;
+    
+        // Check if scrolling up
+        if (currentScrollPosition < lastScrollPosition) {
+          console.log('Scrolling up');
+          // Redirect to page1.html
+          window.location.href = 'page3.html';
+        } else {
+          // Check if scrolling down to the bottom
+          const windowHeight = window.innerHeight;
+          const documentHeight = document.body.offsetHeight;
+          if (currentScrollPosition + windowHeight >= documentHeight) {
+            console.log('Scrolling down to the bottom');
+            // Redirect to page3.html
+            window.location.href = 'page5.html';
+          }
+        }
+    
+        // Update the last scroll position
+        lastScrollPosition = currentScrollPosition;
+      });
+    </script>
+  </body>
+</html>

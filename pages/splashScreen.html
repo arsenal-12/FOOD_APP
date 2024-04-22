@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Splash screen</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lobster:wght@400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="splashScreen.css">
+  <style>
+    .dot-container {
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+    }
+    .dot {
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background-color: black;
+      margin: 0 7px;
+      cursor: pointer;
+    }
+    
+  </style>
+</head>
+<body>
+  <div class="splash-screen" onclick="navigate(event)">
+    <div class="foodgo">
+      Foodgo
+    </div>
+    <img class="container" src="../assets/vectors/container1_x2.svg" />      
+    <div class="image-1">
+      <div class="dot-container">
+        <div class="dot" data-page="splashScreen.html"></div>
+        <div class="dot" data-page="product1.html"></div>
+        <div class="dot" data-page="product2.html"></div>
+        <div class="dot" data-page="product3.html"></div>
+        <div class="dot" data-page="product4.html"></div>
+        <div class="dot" data-page="product5.html"></div>
+        <div class="dot" data-page="payment.html"></div>
+        <div class="dot" data-page="popUpMessage.html"></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script>
+    $(document).ready(function() {
+      // Handle dot click event
+      $('.dot').on('click', function(event) {
+        event.stopPropagation(); // Stop the event from propagating to the parent div
+        const page = $(this).data('page');
+        window.location.href = page;
+      });
+    });
+
+    function navigate(event) {
+      const width = event.currentTarget.offsetWidth;
+      const clickX = event.clientX - event.currentTarget.getBoundingClientRect().left;
+      const targetPage = clickX > width / 2 ? 'product1.html' : 'splashScreen.html';
+      window.location.href = targetPage;
+    }
+    function navigateTo(page) {
+      if (page === 'splashScreen.html') {
+        window.location.href = page;
+      } else {
+        const currentPage = window.location.pathname.split('/').pop();
+        const currentPageIndex = ['product1.html', 'product2.html', 'product3.html', 'product4.html', 'product5.html', 'payment.html', 'popUpMessage.html'].indexOf(currentPage);
+        const targetPageIndex = ['product1.html', 'product2.html', 'product3.html', 'product4.html', 'product5.html', 'payment.html', 'popUpMessage.html'].indexOf(page);
+        
+        if (currentPageIndex !== -1 && targetPageIndex !== -1) {
+          const difference = targetPageIndex - currentPageIndex;
+          window.history.go(difference);
+        } else {
+          window.location.href = page;
+        }
+      }
+  
+      // Add a class to the clicked dot to enlarge it
+      const dots = document.querySelectorAll('.dot');
+      dots.forEach(dot => {
+        dot.classList.remove('active');
+      });
+      const clickedDot = document.querySelector(`[data-page="${page}"]`);
+      clickedDot.classList.add('active');
+    }
+
+  </script>
+</body>
+</html>

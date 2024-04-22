@@ -1,0 +1,3252 @@
+.ejournal .menu-left-panel {
+    border-radius: 22px;
+    background: #120008;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 212px;
+    height: 965px;
+  }
+  .ejournal .group-1 {
+    width: 25px;
+    height: 30px;
+  }
+  .ejournal .logo {
+    margin-right: 12.7px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 25px;
+    height: 30px;
+    box-sizing: border-box;
+  }
+  .ejournal .vector-2 {
+    background: #888E96;
+    margin: 2.2px 0;
+    width: 1px;
+    height: 25.7px;
+  }
+  .ejournal .frame-5 {
+    margin-right: 4px;
+    display: flex;
+    flex-direction: row;
+    width: 38.7px;
+    box-sizing: border-box;
+  }
+  .ejournal .sign {
+    margin-right: 4px;
+    width: 30px;
+    height: 30px;
+  }
+  .ejournal .title {
+    overflow-wrap: break-word;
+    font-family: 'TT Commons', 'Roboto Condensed';
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 1;
+    color: #E8DEDE;
+  }
+  .ejournal .frame-439 {
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+  }
+  .ejournal .frame-440 {
+    margin: 0 2px 20px 2px;
+    display: flex;
+    flex-direction: row;
+    align-self: flex-start;
+    width: fit-content;
+    box-sizing: border-box;
+  }
+  .ejournal .main {
+    overflow-wrap: break-word;
+    font-family: 'TT Commons', 'Roboto Condensed';
+    font-weight: 400;
+    font-size: 12.8px;
+    color: #C9C2B2;
+  }
+  .ejournal .hints {
+    margin-bottom: 12.5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: flex-start;
+    box-sizing: border-box;
+  }
+  .ejournal .group-33 {
+    width: 18px;
+    height: 17px;
+  }
+  .ejournal .servers-databases-servers-databases {
+    margin: 1px 6px 1px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 18px;
+    height: 17px;
+    box-sizing: border-box;
+  }
+  .ejournal .container-31 {
+    overflow-wrap: break-word;
+    font-family: 'TT Commons', 'Roboto Condensed';
+    font-weight: 400;
+    font-size: 16px;
+    color: #FAF4E5;
+  }
+  .ejournal .menu-line {
+    margin: 0 3px 22.5px 3px;
+    display: flex;
+    flex-direction: row;
+    align-self: flex-start;
+    width: fit-content;
+    box-sizing: border-box;
+  }
+  .ejournal .group-34 {
+    width: 24px;
+    height: 24px;
+  }
+  .ejournal .interface-essentialchart-analytic-statistics {
+    margin-right: 3px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 24px;
+    height: 24px;
+    box-sizing: border-box;
+  }
+  .ejournal .container-32 {
+    margin: 2.5px 0;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'TT Commons', 'Roboto Condensed';
+    font-weight: 400;
+    font-size: 16px;
+    color: #FAF4E5;
+  }
+  .ejournal .menu-line-1 {
+    margin: 0 0 20px 0px;
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    box-sizing: border-box;
+  }
+  .ejournal .divider-6 {
+    background: #FE3C8D;
+    margin: 2px 2px 2px 0;
+    width: 1px;
+    height: 20px;
+  }
+  .ejournal .group-35 {
+    width: 24px;
+    height: 24px;
+  }
+  .ejournal .school-learningbook-read-house {
+    margin-right: 3px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 24px;
+    height: 24px;
+    box-sizing: border-box;
+  }
+  .ejournal .container-33 {
+    margin: 2.5px 0;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'TT Commons', 'Roboto Condensed';
+    font-weight: 400;
+    font-size: 16px;
+    color: #FE3C8D;
+  }
+  .ejournal .content {
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+  }
+  .ejournal .menu-line-2 {
+    margin: 0 8px 20px 8px;
+    display: flex;
+    flex-direction: row;
+    align-self: flex-start;
+    width: fit-content;
+    box-sizing: border-box;
+  }
+  .ejournal .group-36 {
+    width: 24px;
+    height: 24px;
+  }
+  .ejournal .content-edittext-edit-pen-circle {
+    margin-right: 3px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 24px;
+    height: 24px;
+    box-sizing: border-box;
+  }
+  .ejournal .container-34 {
+    margin: 2.5px 0;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'TT Commons', 'Roboto Condensed';
+    font-weight: 400;
+    font-size: 16px;
+    color: #FAF4E5;
+  }
+  .ejournal .menu-line-3 {
+    margin: 0 0px 22px 0px;
+    display: flex;
+    flex-direction: row;
+    align-self: flex-start;
+    width: fit-content;
+    box-sizing: border-box;
+  }
+  .ejournal .path-175 {
+    margin: 1px 4px 1px 0;
+    width: 5px;
+    height: 5px;
+  }
+  .ejournal .rectangle-2 {
+    border-radius: 1.6px;
+    border: 1.5px solid #C9C2B2;
+    width: 7px;
+    height: 7px;
+  }
+  .ejournal .path-178 {
+    margin: 1px 0;
+    width: 3px;
+    height: 5px;
+  }
+  .ejournal .container-3 {
+    margin: 0 0 2px 1px;
+    display: flex;
+    flex-direction: row;
+    width: 19px;
+    box-sizing: border-box;
+  }
+  .ejournal .oval-1 {
+    border-radius: 2.5px;
+    margin: 0 2.5px 2.5px 2.5px;
+    width: 5px;
+    height: 5px;
+  }
+  .ejournal .path-177 {
+    width: 10px;
+    height: 2.5px;
+  }
+  .ejournal .container-2 {
+    margin-right: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 10px;
+    box-sizing: border-box;
+  }
+  .ejournal .path-176 {
+    margin-top: 1px;
+    width: 4px;
+    height: 9px;
+  }
+  .ejournal .container-7 {
+    margin-right: 1px;
+    display: flex;
+    flex-direction: row;
+    width: 19px;
+    box-sizing: border-box;
+  }
+  .ejournal .office-workemployee-video-call-camera {
+    margin: 0 5px 0.5px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20px;
+    height: fit-content;
+    box-sizing: border-box;
+  }
+  .ejournal .container-35 {
+    margin-top: 0.5px;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'TT Commons', 'Roboto Condensed';
+    font-weight: 400;
+    font-size: 16px;
+    color: #FAF4E5;
+  }
+  .ejournal .menu-line-4 {
+    margin: 0 2px 22.5px 2px;
+    display: flex;
+    flex-direction: row;
+    align-self: flex-start;
+    width: fit-content;
+    box-sizing: border-box;
+  }
+  .ejournal .group-37 {
+    width: 24px;
+    height: 24px;
+  }
+  .ejournal .school-learningbook-user {
+    margin-right: 3px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 24px;
+    height: 24px;
+    box-sizing: border-box;
+  }
+  .ejournal .container-36 {
+    margin: 2.5px 0;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'TT Commons', 'Roboto Condensed';
+    font-weight: 400;
+    font-size: 16px;
+    color: #FAF4E5;
+  }
+  .ejournal .menu-line-5 {
+    display: flex;
+    flex-direction: row;
+    align-self: flex-start;
+    width: fit-content;
+    box-sizing: border-box;
+  }
+  .ejournal .line {
+    margin-left: 6px;
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    box-sizing: border-box;
+  }
+  .ejournal .frame-9 {
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    box-sizing: border-box;
+  }
+  .ejournal .other {
+    overflow-wrap: break-word;
+    font-family: 'TT Commons', 'Roboto Condensed';
+    font-weight: 400;
+    font-size: 12.8px;
+    color: #C9C2B2;
+  }
+  .ejournal .hints-1 {
+    margin-bottom: 12.5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: flex-start;
+    box-sizing: border-box;
+  }
+  .ejournal .group-38 {
+    width: 18px;
+    height: 18px;
+  }
+  .ejournal .internet-network-browser-internet-web-network-window-edit {
+    margin: 0.5px 6px 0.5px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 18px;
+    height: 18px;
+    box-sizing: border-box;
+  }
+  .ejournal .container-37 {
+    overflow-wrap: break-word;
+    font-family: 'TT Commons', 'Roboto Condensed';
+    font-weight: 400;
+    font-size: 16px;
+    color: #FAF4E5;
+  }
+  .ejournal .menu-line-6 {
+    margin: 0 0 22.5px 3px;
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    box-sizing: border-box;
+  }
+  .ejournal .group-39 {
+    width: 24px;
+    height: 24px;
+  }
+  .ejournal .social-mediaubuntu {
+    margin-right: 3px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 24px;
+    height: 24px;
+    box-sizing: border-box;
+  }
+  .ejournal .container-38 {
+    margin: 2.5px 0;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'TT Commons', 'Roboto Condensed';
+    font-weight: 400;
+    font-size: 16px;
+    color: #FAF4E5;
+  }
+  .ejournal .menu-line-7 {
+    display: flex;
+    flex-direction: row;
+    align-self: flex-start;
+    width: fit-content;
+    box-sizing: border-box;
+  }
+  .ejournal .line-1 {
+    margin-left: 6px;
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    box-sizing: border-box;
+  }
+  .ejournal .frame-10 {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    width: fit-content;
+    box-sizing: border-box;
+  }
+  .ejournal .top {
+    margin-bottom: 462px;
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    box-sizing: border-box;
+  }
+  .ejournal .group-40 {
+    width: 24px;
+    height: 24px;
+  }
+  .ejournal .interface-essential-settings {
+    margin-right: 3px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 24px;
+    height: 24px;
+    box-sizing: border-box;
+  }
+  .ejournal .container-39 {
+    margin: 2.5px 0;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'TT Commons', 'Roboto Condensed';
+    font-weight: 400;
+    font-size: 16px;
+    color: #FAF4E5;
+  }
+  .ejournal .bottom {
+    margin: 0 6px;
+    display: flex;
+    flex-direction: row;
+    align-self: flex-start;
+    width: fit-content;
+    box-sizing: border-box;
+  }
+  .ejournal .frame-11 {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    box-sizing: border-box;
+  }
+  .ejournal .frame-441 {
+    position: absolute;
+    left: 13px;
+    bottom: 18px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+  }
+  .ejournal .arrow {
+    position: absolute;
+    top: 36px;
+    right: 0px;
+    width: 33px;
+    height: 48px;
+  }
+  .ejournal .frame-442 {
+    position: relative;
+    margin: 0 37px 15px 0;
+    width: 227px;
+    height: 965px;
+  }
+  .ejournal .group {
+    width: 24px;
+    height: 24px;
+  }
+  .ejournal .interface-essential-search-loupe {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 24px;
+    height: 24px;
+    box-sizing: border-box;
+  }
+  .ejournal .ctrl-f {
+    overflow-wrap: break-word;
+    font-family: 'TT Commons', 'Roboto Condensed';
+    font-weight: 400;
+    font-size: 12.8px;
+    font-variant: all-small-caps;
+    color: #120008;
+  }
+  .ejournal .frame-12 {
+    border-radius: 9px;
+    background: #FE8ABB;
+    margin: 3.5px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 1px 14.7px 1px 5px;
+    box-sizing: border-box;
+  }
+  .ejournal .cta {
+    border-radius: 24px;
+    background: #FE3C8D;
+    display: flex;
+    flex-direction: row;
+    padding: 6px 8px 6px 4px;
+    box-sizing: border-box;
+  }
+  .ejournal .leading {
+    margin: 1px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    box-sizing: border-box;
+  }
+  .ejournal .hint {
+    margin: 9.5px 11.9px 9.5px 0;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'TT Commons', 'Roboto Condensed';
+    font-weight: 400;
+    font-size: 16px;
+    color: #120008;
+  }
+  .ejournal .pupils {
+    overflow-wrap: break-word;
+    font-family: 'TT Commons', 'Roboto Condensed';
+    font-weight: 400;
+    font-size: 16px;
+    color: #120008;
+  }
+  .ejournal .frame-3 {
+    border-radius: 24px;
+    border: 1px dashed #120008;
+    margin: 0 10px 1px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 2.5px 14.4px 2.5px 11.5px;
+    box-sizing: border-box;
+  }
+  .ejournal .container-3 {
+    overflow-wrap: break-word;
+    font-family: 'TT Commons', 'Roboto Condensed';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1;
+    color: #120008;
+  }
+  .ejournal .tags {
+    border-radius: 24px;
+    border: 1px dashed #120008;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 4px 10.5px 4px 11px;
+    box-sizing: border-box;
+  }
+  .ejournal .container-4 {
+    overflow-wrap: break-word;
+    font-family: 'TT Commons', 'Roboto Condensed';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1;
+    color: #120008;
+  }
+  .ejournal .tags-1 {
+    border-radius: 24px;
+    border: 1px dashed #000000;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 4.5px 10.1px 4.5px 11.5px;
+    box-sizing: border-box;
+  }
+  .ejournal .emagazine {
+    overflow-wrap: break-word;
+    font-family: 'TT Commons', 'Roboto Condensed';
+    font-weight: 400;
+    font-size: 16px;
+    color: #120008;
+  }
+  .ejournal .frame-4 {
+    border-radius: 24px;
+    border: 1px dashed #120008;
+    margin-bottom: 1px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 2.5px 7.4px 2.5px 4.4px;
+    box-sizing: border-box;
+  }
+  .ejournal .frame-13 {
+    border-radius: 25px;
+    background: #EDE7D9;
+    display: flex;
+    flex-direction: row;
+    padding: 6px;
+    box-sizing: border-box;
+  }
+  .ejournal .filtrs {
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+  }
+  .ejournal .search-input {
+    border-radius: 24px;
+    border: 1px solid #120008;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 4px 6px;
+    width: 728px;
+    box-sizing: border-box;
+  }
+  .ejournal .path-2 {
+    width: 13.3px;
+    height: 13.3px;
+  }
+  .ejournal .frame-15 {
+    border-radius: 17px;
+    border: 1px solid #EDE7D9;
+    background: #EDE7D9;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 8.3px;
+    width: 32px;
+    height: 32px;
+    box-sizing: border-box;
+  }
+  .ejournal .frame-16 {
+    margin: 3px 30px 3px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    box-sizing: border-box;
+  }
+  .ejournal .ellipse-4 {
+    border-radius: 1.5px;
+    background: #FE8ABB;
+    position: relative;
+    margin: 11px 17px 24px 0;
+    width: 3px;
+    height: 3px;
+  }
+  .ejournal .menu {
+    position: relative;
+    width: 80px;
+    height: 38px;
+  }
+  .ejournal .container-13 {
+    margin: 5px 0;
+    display: flex;
+    flex-direction: row;
+    width: 162px;
+    height: fit-content;
+    box-sizing: border-box;
+  }
+  .ejournal .frame-14 {
+    border-radius: 100px;
+    border: 1px solid #FE8ABB;
+    background: var(--avatar-1, url('../assets/images/frame14.jpeg'));
+    width: 28px;
+    height: 28px;
+  }
+  .ejournal .icon-body-1 {
+    border-radius: 100px;
+    background: #120008;
+    position: absolute;
+    right: 84px;
+    bottom: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 5px;
+    width: 38px;
+    height: 38px;
+    box-sizing: border-box;
+  }
+  .ejournal .union {
+    position: absolute;
+    right: 75px;
+    bottom: 11.1px;
+    width: 14px;
+    height: 25.8px;
+  }
+  .ejournal .header {
+    position: relative;
+    margin-bottom: 12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1108px;
+    box-sizing: border-box;
+  }
+  .ejournal .planning-lessons {
+    overflow-wrap: break-word;
+    font-family: 'TT Commons', 'Roboto Condensed';
+    font-weight: 500;
+    font-size: 50px;
+    color: #120008;
+  }
+  .ejournal .frame-17 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    box-sizing: border-box;
+  }
+  .ejournal .add-an-event {
+    overflow-wrap: break-word;
+    font-family: 'TT Commons', 'Roboto Condensed';
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 1;
+    color: #FAF4E5;
+  }
+  .ejournal .cta-1 {
+    border-radius: 24px;
+    background: #120008;
+    margin: 0 10px 1px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 12px 18.9px 12px 16px;
+    box-sizing: border-box;
+  }
+  .ejournal .group-3 {
+    width: 13.3px;
+    height: 13.3px;
+  }
+  .ejournal .update {
+    border-radius: 100px;
+    border: 1px solid #EDE7D9;
+    background: #EDE7D9;
+    margin-right: 7px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 13.3px;
+    width: 42px;
+    height: 42px;
+    box-sizing: border-box;
+  }
+  .ejournal .group-4 {
+    width: 20px;
+    height: 20px;
+  }
+  .ejournal .update-1 {
+    border-radius: 100px;
+    border: 1px solid #EDE7D9;
+    background: #EDE7D9;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px;
+    width: 42px;
+    height: 42px;
+    box-sizing: border-box;
+  }
+  .ejournal .container-4 {
+    margin: 9px 0 8px 0;
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+  }
+  .ejournal .container-15 {
+    margin: 0 0 15px 1px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1107px;
+    box-sizing: border-box;
+  }
+  .ejournal .container {
+    margin-right: 3.7px;
+    overflow-wrap: break-word;
+    font-family: 'TT Commons', 'Roboto Condensed';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1;
+    color: #FAF4E5;
+  }
+  .ejournal .path-12 {
+    width: 6.7px;
+    height: 3.3px;
+  }
+  .ejournal .arrows-diagrams-arrow {
+    margin: 6.3px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 6.7px;
+    height: 3.3px;
+    box-sizing: border-box;
+  }
+  .ejournal .tags-2 {
+    border-radius: 24px;
+    background: #120008;
+    margin: 4px 0;
+    display: flex;
+    flex-direction: row;
+    padding: 10px 0;
+    width: 149px;
+    height: fit-content;
+    box-sizing: border-box;
+  }
+  .ejournal .today {
+    overflow-wrap: break-word;
+    font-family: 'TT Commons', 'Roboto Condensed';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1;
+    color: #120008;
+  }
+  .ejournal .tags-3 {
+    border-radius: 24px;
+    border: 1px dashed #000000;
+    background: #EDE7D9;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 6.5px 11.8px 6.5px 11.5px;
+    box-sizing: border-box;
+  }
+  .ejournal .week {
+    overflow-wrap: break-word;
+    font-family: 'TT Commons', 'Roboto Condensed';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1;
+    color: #FAF4E5;
+  }
+  .ejournal .tags-4 {
+    border-radius: 24px;
+    background: #120008;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 7px 12.8px 7px 12px;
+    box-sizing: border-box;
+  }
+  .ejournal .month {
+    overflow-wrap: break-word;
+    font-family: 'TT Commons', 'Roboto Condensed';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1;
+    color: #120008;
+  }
+  .ejournal .tags-5 {
+    border-radius: 24px;
+    border: 1px dashed #120008;
+    background: #EDE7D9;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 6.5px 13.2px 6.5px 11.5px;
+    box-sizing: border-box;
+  }
+  .ejournal .frame-83 {
+    border-radius: 26px;
+    background: #EDE7D9;
+    display: flex;
+    flex-direction: row;
+    padding: 7px 6px;
+    box-sizing: border-box;
+  }
+  .ejournal .frame-82 {
+    margin-bottom: 28px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1108px;
+    box-sizing: border-box;
+  }
+  .ejournal .week-1 {
+    margin-bottom: 3px;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'TT Commons', 'Roboto Condensed';
+    font-weight: 400;
+    font-size: 12px;
+    color: #757B88;
+  }
+  .ejournal .container-1 {
+    margin: 0 3.6px 0 6px;
+    overflow-wrap: break-word;
+    font-family: 'TT Commons', 'Roboto Condensed';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1;
+    color: #757B88;
+  }
+  .ejournal .tags-day-week {
+    border-radius: 5px;
+    margin: 5.5px 19.9px 5.5px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+  }
+  .ejournal .container-5 {
+    overflow-wrap: break-word;
+    font-family: 'TT Commons', 'Roboto Condensed';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1;
+    color: #EDE7D9;
+  }
+  .ejournal .container-6 {
+    margin-left: 1.9px;
+    overflow-wrap: break-word;
+    font-family: 'TT Commons', 'Roboto Condensed';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1;
+    color: #FAF4E5;
+  }
+  .ejournal .tags-day-week-1 {
+    border-radius: 12px;
+    background: #120008;
+    margin-right: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 6px 0 8px 0;
+    width: 140.1px;
+    box-sizing: border-box;
+  }
+  .ejournal .container-7 {
+    overflow-wrap: break-word;
+    font-family: 'TT Commons', 'Roboto Condensed';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1;
+    color: #757B88;
+  }
+  .ejournal .container-8 {
+    margin-left: 0.6px;
+    overflow-wrap: break-word;
+    font-family: 'TT Commons', 'Roboto Condensed';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1;
+    color: #120008;
+  }
+  .ejournal .tags-day-week-2 {
+    border-radius: 12px;
+    background: #FFFFFF;
+    margin-right: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 6px 0 8px 0;
+    width: 140.1px;
+    box-sizing: border-box;
+  }
+  .ejournal .container-9 {
+    overflow-wrap: break-word;
+    font-family: 'TT Commons', 'Roboto Condensed';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1;
+    color: #757B88;
+  }
+  .ejournal .container-10 {
+    margin-left: 3.8px;
+    overflow-wrap: break-word;
+    font-family: 'TT Commons', 'Roboto Condensed';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1;
+    color: #120008;
+  }
+  .ejournal .tags-day-week-3 {
+    border-radius: 12px;
+    background: #FFFFFF;
+    margin-right: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 6px 0 8px 0;
+    width: 140.1px;
+    box-sizing: border-box;
+  }
+  .ejournal .container-11 {
+    overflow-wrap: break-word;
+    font-family: 'TT Commons', 'Roboto Condensed';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1;
+    color: #757B88;
+  }
+  .ejournal .container-12 {
+    margin-left: 1.8px;
+    overflow-wrap: break-word;
+    font-family: 'TT Commons', 'Roboto Condensed';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1;
+    color: #120008;
+  }
+  .ejournal .tags-day-week-4 {
+    border-radius: 12px;
+    background: #FFFFFF;
+    margin-right: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 6px 0 8px 0;
+    width: 140.1px;
+    box-sizing: border-box;
+  }
+  .ejournal .container-13 {
+    overflow-wrap: break-word;
+    font-family: 'TT Commons', 'Roboto Condensed';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1;
+    color: #757B88;
+  }
+  .ejournal .container-14 {
+    margin-left: 0.7px;
+    overflow-wrap: break-word;
+    font-family: 'TT Commons', 'Roboto Condensed';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1;
+    color: #120008;
+  }
+  .ejournal .tags-day-week-5 {
+    border-radius: 12px;
+    background: #FFFFFF;
+    margin-right: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 6px 0 8px 0;
+    width: 140.1px;
+    box-sizing: border-box;
+  }
+  .ejournal .container-15 {
+    overflow-wrap: break-word;
+    font-family: 'TT Commons', 'Roboto Condensed';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1;
+    color: #757B88;
+  }
+  .ejournal .container-16 {
+    margin-left: 0.6px;
+    overflow-wrap: break-word;
+    font-family: 'TT Commons', 'Roboto Condensed';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1;
+    color: #120008;
+  }
+  .ejournal .tags-day-week-6 {
+    border-radius: 12px;
+    background: #FFFFFF;
+    margin-right: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 6px 0 8px 0;
+    width: 140.1px;
+    box-sizing: border-box;
+  }
+  .ejournal .container-17 {
+    overflow-wrap: break-word;
+    font-family: 'TT Commons', 'Roboto Condensed';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1;
+    color: #C9C2B2;
+  }
+  .ejournal .container-18 {
+    margin-left: 5px;
+    overflow-wrap: break-word;
+    font-family: 'TT Commons', 'Roboto Condensed';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1;
+    color: #C9C2B2;
+  }
+  .ejournal .tags-day-week-7 {
+    border-radius: 12px;
+    background: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 6px 0 8px 0;
+    width: 140.1px;
+    box-sizing: border-box;
+  }
+  .ejournal .date-stack {
+    display: flex;
+    flex-direction: row;
+    width: 1053px;
+    box-sizing: border-box;
+  }
+  .ejournal .container-9 {
+    margin: 0 0px 21px 9.5px;
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    box-sizing: border-box;
+  }
+  .ejournal .time-1 {
+    margin: 0 0.5px 6px 0;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'TT Commons', 'Roboto Condensed';
+    font-weight: 400;
+    font-size: 16px;
+    color: #757B88;
+  }
+  .ejournal .divider {
+    background: #757B88;
+    margin: 0 12.4px 6px 14.5px;
+    width: 1px;
+    height: 100px;
+  }
+  .ejournal .time-2 {
+    margin-left: 0.5px;
+    overflow-wrap: break-word;
+    font-family: 'TT Commons', 'Roboto Condensed';
+    font-weight: 400;
+    font-size: 16px;
+    color: #757B88;
+  }
+  .ejournal .frame-29 {
+    margin: 0 5.9px 6px 2.5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: fit-content;
+    box-sizing: border-box;
+  }
+  .ejournal .divider-1 {
+    background: #757B88;
+    margin: 0 17.3px 6px 17px;
+    width: 1px;
+    height: 100px;
+  }
+  .ejournal .time-3 {
+    overflow-wrap: break-word;
+    font-family: 'TT Commons', 'Roboto Condensed';
+    font-weight: 400;
+    font-size: 16px;
+    color: #757B88;
+  }
+  .ejournal .frame-33 {
+    margin: 0 1px 6px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: fit-content;
+    box-sizing: border-box;
+  }
+  .ejournal .divider-2 {
+    background: #757B88;
+    margin: 0 17.3px 6px 17px;
+    width: 1px;
+    height: 100px;
+  }
+  .ejournal .time-4 {
+    overflow-wrap: break-word;
+    font-family: 'TT Commons', 'Roboto Condensed';
+    font-weight: 400;
+    font-size: 16px;
+    color: #757B88;
+  }
+  .ejournal .frame-35 {
+    margin: 0 1px 6px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: fit-content;
+    box-sizing: border-box;
+  }
+  .ejournal .divider-3 {
+    background: #757B88;
+    margin: 0 17.8px 6px 16.5px;
+    width: 1px;
+    height: 100px;
+  }
+  .ejournal .time-5 {
+    overflow-wrap: break-word;
+    font-family: 'TT Commons', 'Roboto Condensed';
+    font-weight: 400;
+    font-size: 16px;
+    color: #757B88;
+  }
+  .ejournal .frame-36 {
+    margin: 0 0.5px 6px 0.5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: fit-content;
+    box-sizing: border-box;
+  }
+  .ejournal .divider-4 {
+    background: #757B88;
+    margin: 0 18.3px 6px 16px;
+    width: 1px;
+    height: 100px;
+  }
+  .ejournal .time-6 {
+    overflow-wrap: break-word;
+    font-family: 'TT Commons', 'Roboto Condensed';
+    font-weight: 400;
+    font-size: 16px;
+    color: #757B88;
+  }
+  .ejournal .frame-37 {
+    margin: 0 0 6px 1px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: fit-content;
+    box-sizing: border-box;
+  }
+  .ejournal .divider-5 {
+    background: #757B88;
+    margin: 0 9.4px 6px 17px;
+    width: 1px;
+    height: 82px;
+  }
+  .ejournal .time-7 {
+    overflow-wrap: break-word;
+    font-family: 'TT Commons', 'Roboto Condensed';
+    font-weight: 400;
+    font-size: 16px;
+    color: #757B88;
+  }
+  .ejournal .frame-38 {
+    margin-right: 8.9px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: fit-content;
+    box-sizing: border-box;
+  }
+  .ejournal .time-line {
+    margin-right: 11.7px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+  }
+  .ejournal .group-5 {
+    width: 20px;
+    height: 20px;
+  }
+  .ejournal .day-week {
+    border-radius: 21px;
+    background: #C0E0EF;
+    margin-right: 6px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 6.5px;
+    width: 33px;
+    height: 33px;
+    box-sizing: border-box;
+  }
+  .ejournal .mathematics {
+    overflow-wrap: break-word;
+    font-family: 'TT Commons', 'Roboto Condensed';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1;
+    color: #120008;
+  }
+  .ejournal .frame-87 {
+    margin: 8.5px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    box-sizing: border-box;
+  }
+  .ejournal .frame-88 {
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    box-sizing: border-box;
+  }
+  .ejournal .ms-simpsons {
+    margin-right: 0.2px;
+    overflow-wrap: break-word;
+    font-family: 'TT Commons', 'Roboto Condensed';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1;
+    color: #757B88;
+  }
+  .ejournal .ellipse-5 {
+    border-radius: 1.5px;
+    background: #757B88;
+    margin: 5.5px 3px 5.5px 0;
+    width: 3px;
+    height: 3px;
+  }
+  .ejournal .group-6 {
+    width: 12px;
+    height: 12px;
+  }
+  .ejournal .furniturefront-door-1 {
+    margin: 1px 1px 1px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 12px;
+    height: 12px;
+    box-sizing: border-box;
+  }
+  .ejournal .container-2 {
+    overflow-wrap: break-word;
+    font-family: 'TT Commons', 'Roboto Condensed';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1;
+    color: #757B88;
+  }
+  .ejournal .frame-351 {
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+  }
+  .ejournal .frame-90 {
+    margin: 0 9px 5px 0;
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    box-sizing: border-box;
+  }
+  .ejournal .aquarterly-test-in-the-subject-of-mathematical-analysis-and-matrix-multiplication {
+    margin-right: 3.1px;
+    overflow-wrap: break-word;
+    font-family: 'TT Commons', 'Roboto Condensed';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1;
+    color: #757B88;
+  }
+  .ejournal .frame-89 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+  }
+  .ejournal .minutes {
+    position: absolute;
+    left: 4px;
+    bottom: -1px;
+    overflow-wrap: break-word;
+    font-family: 'TT Commons', 'Roboto Condensed';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1;
+    color: #757B88;
+  }
+  .minutes-sub15 {
+    font-family: 'TT Commons', 'Roboto Condensed';
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1.333;
+  }
+  .ejournal .card-subject {
+    border-radius: 12px;
+    background: #EDE7D9;
+    position: relative;
+    margin: 0 4px 122px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 4px 14.2px 14px 4px;
+    box-sizing: border-box;
+  }
+  .ejournal .path-27 {
+    margin: 0.8px 3.3px 0.8px 0;
+    width: 4.2px;
+    height: 4.2px;
+  }
+  .ejournal .rectangle {
+    border-radius: 1.6px;
+    border: 1.5px solid #7E200F;
+    width: 5.8px;
+    height: 5.8px;
+  }
+  .ejournal .path-30 {
+    margin: 0.8px 0;
+    width: 2.5px;
+    height: 4.2px;
+  }
+  .ejournal .container-5 {
+    margin: 0 0 1.7px 0.8px;
+    display: flex;
+    flex-direction: row;
+    width: 15.8px;
+    box-sizing: border-box;
+  }
+  .ejournal .oval {
+    margin: 0 2.1px 2.1px 2.1px;
+    width: 4.2px;
+    height: 4.2px;
+  }
+  .ejournal .path-29 {
+    width: 8.3px;
+    height: 2.1px;
+  }
+  .ejournal .container-1 {
+    margin: 0 4.2px 0px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 8.3px;
+    box-sizing: border-box;
+  }
+  .ejournal .path-28 {
+    margin-top: 0.8px;
+    width: 3.3px;
+    height: 7.5px;
+  }
+  .ejournal .container-11 {
+    margin-right: 0.8px;
+    display: flex;
+    flex-direction: row;
+    width: 15.8px;
+    box-sizing: border-box;
+  }
+  .ejournal .day-week-1 {
+    border-radius: 21px;
+    background: #FF5F44;
+    margin-right: 6px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 8.2px 8.2px 9px 8.2px;
+    width: 33px;
+    box-sizing: border-box;
+  }
+  .ejournal .mathematics-1 {
+    overflow-wrap: break-word;
+    font-family: 'TT Commons', 'Roboto Condensed';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1;
+    color: #120008;
+  }
+  .ejournal .frame-871 {
+    margin: 0.5px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    box-sizing: border-box;
+  }
+  .ejournal .frame-881 {
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: row;
+    align-self: flex-start;
+    width: fit-content;
+    box-sizing: border-box;
+  }
+  .ejournal .ms-simpsons-1 {
+    overflow-wrap: break-word;
+    font-family: 'TT Commons', 'Roboto Condensed';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1;
+    color: #7E200F;
+  }
+  .ejournal .frame-901 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: flex-start;
+    box-sizing: border-box;
+  }
+  .ejournal .card-subject-1 {
+    border-radius: 12px;
+    background: #F3927D;
+    margin: 0 4px 58px 0;
+    display: flex;
+    flex-direction: column;
+    padding: 9px 0 11px 4px;
+    width: fit-content;
+    box-sizing: border-box;
+  }
+  .ejournal .group-30 {
+    width: 20px;
+    height: 20px;
+  }
+  .ejournal .day-week-14 {
+    border-radius: 21px;
+    background: #C0E0EF;
+    margin-right: 6px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 6.5px;
+    width: 33px;
+    height: 33px;
+    box-sizing: border-box;
+  }
+  .ejournal .mathematics-14 {
+    overflow-wrap: break-word;
+    font-family: 'TT Commons', 'Roboto Condensed';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1;
+    color: #120008;
+  }
+  .ejournal .frame-8714 {
+    margin: 8.5px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    box-sizing: border-box;
+  }
+  .ejournal .frame-8814 {
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    box-sizing: border-box;
+  }
+  .ejournal .ms-simpsons-14 {
+    margin-right: 1.9px;
+    overflow-wrap: break-word;
+    font-family: 'TT Commons', 'Roboto Condensed';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1;
+    color: #757B88;
+  }
+  .ejournal .ellipse-512 {
+    border-radius: 1.5px;
+    background: #757B88;
+    margin: 5.5px 3px 5.5px 0;
+    width: 3px;
+    height: 3px;
+  }
+  .ejournal .group-31 {
+    width: 12px;
+    height: 12px;
+  }
+  .ejournal .furniturefront-door-112 {
+    margin: 1px 1px 1px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 12px;
+    height: 12px;
+    box-sizing: border-box;
+  }
+  .ejournal .container-30 {
+    overflow-wrap: break-word;
+    font-family: 'TT Commons', 'Roboto Condensed';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1;
+    color: #757B88;
+  }
+  .ejournal .frame-3513 {
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+  }
+  .ejournal .frame-9014 {
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: row;
+    align-self: flex-start;
+    width: fit-content;
+    box-sizing: border-box;
+  }
+  .ejournal .aquarterly-test-in-the-subject-of-mathematical-analysis-and-matrix-multiplication-12 {
+    margin-right: 3.1px;
+    overflow-wrap: break-word;
+    font-family: 'TT Commons', 'Roboto Condensed';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1;
+    color: #757B88;
+  }
+  .ejournal .frame-8912 {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+  }
+  .ejournal .minutes-12 {
+    position: absolute;
+    left: 4px;
+    bottom: -1px;
+    overflow-wrap: break-word;
+    font-family: 'TT Commons', 'Roboto Condensed';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1;
+    color: #757B88;
+  }
+  .minutes-12-sub15 {
+    font-family: 'TT Commons', 'Roboto Condensed';
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1.333;
+  }
+  .ejournal .card-subject-14 {
+    border-radius: 12px;
+    background: #EDE7D9;
+    position: relative;
+    margin-left: 4px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 4px 14.2px 14px 4px;
+    box-sizing: border-box;
+  }
+  .ejournal .container-8 {
+    margin: 0 8px 264px 0;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+  }
+  .ejournal .group-8 {
+    width: 20px;
+    height: 20px;
+  }
+  .ejournal .day-week-3 {
+    border-radius: 21px;
+    background: #C0E0EF;
+    margin-right: 6px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 6.5px;
+    width: 33px;
+    height: 33px;
+    box-sizing: border-box;
+  }
+  .ejournal .mathematics-3 {
+    overflow-wrap: break-word;
+    font-family: 'TT Commons', 'Roboto Condensed';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1;
+    color: #120008;
+  }
+  .ejournal .frame-873 {
+    margin: 8.5px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    box-sizing: border-box;
+  }
+  .ejournal .frame-883 {
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    box-sizing: border-box;
+  }
+  .ejournal .ms-simpsons-3 {
+    margin-right: 0.2px;
+    overflow-wrap: break-word;
+    font-family: 'TT Commons', 'Roboto Condensed';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1;
+    color: #757B88;
+  }
+  .ejournal .ellipse-51 {
+    border-radius: 1.5px;
+    background: #757B88;
+    margin: 5.5px 3px 5.5px 0;
+    width: 3px;
+    height: 3px;
+  }
+  .ejournal .group-9 {
+    width: 12px;
+    height: 12px;
+  }
+  .ejournal .furniturefront-door-11 {
+    margin: 1px 1px 1px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 12px;
+    height: 12px;
+    box-sizing: border-box;
+  }
+  .ejournal .container-19 {
+    overflow-wrap: break-word;
+    font-family: 'TT Commons', 'Roboto Condensed';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1;
+    color: #757B88;
+  }
+  .ejournal .frame-352 {
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+  }
+  .ejournal .frame-903 {
+    margin: 0 9px 5px 0;
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    box-sizing: border-box;
+  }
+  .ejournal .aquarterly-test-in-the-subject-of-mathematical-analysis-and-matrix-multiplication-1 {
+    margin-right: 3.1px;
+    overflow-wrap: break-word;
+    font-family: 'TT Commons', 'Roboto Condensed';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1;
+    color: #757B88;
+  }
+  .ejournal .frame-891 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+  }
+  .ejournal .minutes-1 {
+    position: absolute;
+    left: 4px;
+    bottom: -1px;
+    overflow-wrap: break-word;
+    font-family: 'TT Commons', 'Roboto Condensed';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1;
+    color: #757B88;
+  }
+  .minutes-1-sub15 {
+    font-family: 'TT Commons', 'Roboto Condensed';
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1.333;
+  }
+  .ejournal .card-subject-3 {
+    border-radius: 12px;
+    background: #EDE7D9;
+    position: relative;
+    margin-bottom: 6px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 4px 14.2px 0 4px;
+    box-sizing: border-box;
+  }
+  .ejournal .group-16 {
+    width: 20px;
+    height: 20px;
+  }
+  .ejournal .day-week-7 {
+    border-radius: 21px;
+    background: #C0E0EF;
+    margin-right: 6px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 6.5px;
+    width: 33px;
+    height: 33px;
+    box-sizing: border-box;
+  }
+  .ejournal .mathematics-7 {
+    overflow-wrap: break-word;
+    font-family: 'TT Commons', 'Roboto Condensed';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1;
+    color: #120008;
+  }
+  .ejournal .frame-877 {
+    margin: 8.5px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    box-sizing: border-box;
+  }
+  .ejournal .frame-887 {
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    box-sizing: border-box;
+  }
+  .ejournal .ms-simpsons-7 {
+    margin-right: 1.9px;
+    overflow-wrap: break-word;
+    font-family: 'TT Commons', 'Roboto Condensed';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1;
+    color: #757B88;
+  }
+  .ejournal .ellipse-55 {
+    border-radius: 1.5px;
+    background: #757B88;
+    margin: 5.5px 3px 5.5px 0;
+    width: 3px;
+    height: 3px;
+  }
+  .ejournal .group-17 {
+    width: 12px;
+    height: 12px;
+  }
+  .ejournal .furniturefront-door-15 {
+    margin: 1px 1px 1px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 12px;
+    height: 12px;
+    box-sizing: border-box;
+  }
+  .ejournal .container-23 {
+    overflow-wrap: break-word;
+    font-family: 'TT Commons', 'Roboto Condensed';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1;
+    color: #757B88;
+  }
+  .ejournal .frame-356 {
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+  }
+  .ejournal .frame-907 {
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: row;
+    align-self: flex-start;
+    width: fit-content;
+    box-sizing: border-box;
+  }
+  .ejournal .aquarterly-test-in-the-subject-of-mathematical-analysis-and-matrix-multiplication-5 {
+    margin-right: 3.1px;
+    overflow-wrap: break-word;
+    font-family: 'TT Commons', 'Roboto Condensed';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1;
+    color: #757B88;
+  }
+  .ejournal .frame-895 {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+  }
+  .ejournal .minutes-5 {
+    position: absolute;
+    left: 4px;
+    bottom: -1px;
+    overflow-wrap: break-word;
+    font-family: 'TT Commons', 'Roboto Condensed';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1;
+    color: #757B88;
+  }
+  .minutes-5-sub15 {
+    font-family: 'TT Commons', 'Roboto Condensed';
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1.333;
+  }
+  .ejournal .card-subject-7 {
+    border-radius: 12px;
+    background: #EDE7D9;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 4px 14.2px 14px 4px;
+    box-sizing: border-box;
+  }
+  .ejournal .container {
+    margin: 130px 12px 394px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+  }
+  .ejournal .group-10 {
+    width: 20px;
+    height: 20px;
+  }
+  .ejournal .day-week-4 {
+    border-radius: 21px;
+    background: #C0E0EF;
+    margin-right: 6px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 6.5px;
+    width: 33px;
+    height: 33px;
+    box-sizing: border-box;
+  }
+  .ejournal .mathematics-4 {
+    overflow-wrap: break-word;
+    font-family: 'TT Commons', 'Roboto Condensed';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1;
+    color: #120008;
+  }
+  .ejournal .frame-874 {
+    margin: 8.5px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    box-sizing: border-box;
+  }
+  .ejournal .frame-884 {
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    box-sizing: border-box;
+  }
+  .ejournal .ms-simpsons-4 {
+    margin-right: 1.9px;
+    overflow-wrap: break-word;
+    font-family: 'TT Commons', 'Roboto Condensed';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1;
+    color: #757B88;
+  }
+  .ejournal .ellipse-52 {
+    border-radius: 1.5px;
+    background: #757B88;
+    margin: 5.5px 3px 5.5px 0;
+    width: 3px;
+    height: 3px;
+  }
+  .ejournal .group-11 {
+    width: 12px;
+    height: 12px;
+  }
+  .ejournal .furniturefront-door-12 {
+    margin: 1px 1px 1px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 12px;
+    height: 12px;
+    box-sizing: border-box;
+  }
+  .ejournal .container-20 {
+    overflow-wrap: break-word;
+    font-family: 'TT Commons', 'Roboto Condensed';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1;
+    color: #757B88;
+  }
+  .ejournal .frame-353 {
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+  }
+  .ejournal .frame-904 {
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: row;
+    align-self: flex-start;
+    width: fit-content;
+    box-sizing: border-box;
+  }
+  .ejournal .aquarterly-test-in-the-subject-of-mathematical-analysis-and-matrix-multiplication-2 {
+    margin-right: 3.1px;
+    overflow-wrap: break-word;
+    font-family: 'TT Commons', 'Roboto Condensed';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1;
+    color: #757B88;
+  }
+  .ejournal .frame-892 {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+  }
+  .ejournal .minutes-2 {
+    position: absolute;
+    left: 4px;
+    bottom: -1px;
+    overflow-wrap: break-word;
+    font-family: 'TT Commons', 'Roboto Condensed';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1;
+    color: #757B88;
+  }
+  .minutes-2-sub15 {
+    font-family: 'TT Commons', 'Roboto Condensed';
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1.333;
+  }
+  .ejournal .card-subject-4 {
+    border-radius: 12px;
+    background: #EDE7D9;
+    position: relative;
+    margin-bottom: 6px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 4px 14.2px 0 4px;
+    box-sizing: border-box;
+  }
+  .ejournal .group-18 {
+    width: 20px;
+    height: 20px;
+  }
+  .ejournal .day-week-8 {
+    border-radius: 21px;
+    background: #C0E0EF;
+    margin-right: 6px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 6.5px;
+    width: 33px;
+    height: 33px;
+    box-sizing: border-box;
+  }
+  .ejournal .mathematics-8 {
+    overflow-wrap: break-word;
+    font-family: 'TT Commons', 'Roboto Condensed';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1;
+    color: #120008;
+  }
+  .ejournal .frame-878 {
+    margin: 8.5px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    box-sizing: border-box;
+  }
+  .ejournal .frame-888 {
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    box-sizing: border-box;
+  }
+  .ejournal .ms-simpsons-8 {
+    margin-right: 1.9px;
+    overflow-wrap: break-word;
+    font-family: 'TT Commons', 'Roboto Condensed';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1;
+    color: #757B88;
+  }
+  .ejournal .ellipse-56 {
+    border-radius: 1.5px;
+    background: #757B88;
+    margin: 5.5px 3px 5.5px 0;
+    width: 3px;
+    height: 3px;
+  }
+  .ejournal .group-19 {
+    width: 12px;
+    height: 12px;
+  }
+  .ejournal .furniturefront-door-16 {
+    margin: 1px 1px 1px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 12px;
+    height: 12px;
+    box-sizing: border-box;
+  }
+  .ejournal .container-24 {
+    overflow-wrap: break-word;
+    font-family: 'TT Commons', 'Roboto Condensed';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1;
+    color: #757B88;
+  }
+  .ejournal .frame-357 {
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+  }
+  .ejournal .frame-908 {
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: row;
+    align-self: flex-start;
+    width: fit-content;
+    box-sizing: border-box;
+  }
+  .ejournal .aquarterly-test-in-the-subject-of-mathematical-analysis-and-matrix-multiplication-6 {
+    margin-right: 3.1px;
+    overflow-wrap: break-word;
+    font-family: 'TT Commons', 'Roboto Condensed';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1;
+    color: #757B88;
+  }
+  .ejournal .frame-896 {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+  }
+  .minutes-6-sub15 {
+    font-family: 'TT Commons', 'Roboto Condensed';
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1.333;
+  }
+  .ejournal .minutes-6 {
+    position: absolute;
+    left: 4px;
+    bottom: -1px;
+    overflow-wrap: break-word;
+    font-family: 'TT Commons', 'Roboto Condensed';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1;
+    color: #757B88;
+  }
+  .ejournal .card-subject-8 {
+    border-radius: 12px;
+    background: #EDE7D9;
+    position: relative;
+    margin-bottom: 9px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 4px 14.2px 14px 4px;
+    box-sizing: border-box;
+  }
+  .ejournal .group-24 {
+    width: 20px;
+    height: 20px;
+  }
+  .ejournal .day-week-11 {
+    border-radius: 21px;
+    background: #C0E0EF;
+    margin-right: 6px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 6.5px;
+    width: 33px;
+    height: 33px;
+    box-sizing: border-box;
+  }
+  .ejournal .mathematics-11 {
+    overflow-wrap: break-word;
+    font-family: 'TT Commons', 'Roboto Condensed';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1;
+    color: #120008;
+  }
+  .ejournal .frame-8711 {
+    margin: 8.5px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    box-sizing: border-box;
+  }
+  .ejournal .frame-8811 {
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    box-sizing: border-box;
+  }
+  .ejournal .ms-simpsons-11 {
+    margin-right: 0.2px;
+    overflow-wrap: break-word;
+    font-family: 'TT Commons', 'Roboto Condensed';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1;
+    color: #757B88;
+  }
+  .ejournal .ellipse-59 {
+    border-radius: 1.5px;
+    background: #757B88;
+    margin: 5.5px 3px 5.5px 0;
+    width: 3px;
+    height: 3px;
+  }
+  .ejournal .group-25 {
+    width: 12px;
+    height: 12px;
+  }
+  .ejournal .furniturefront-door-19 {
+    margin: 1px 1px 1px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 12px;
+    height: 12px;
+    box-sizing: border-box;
+  }
+  .ejournal .container-27 {
+    overflow-wrap: break-word;
+    font-family: 'TT Commons', 'Roboto Condensed';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1;
+    color: #757B88;
+  }
+  .ejournal .frame-3510 {
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+  }
+  .ejournal .frame-9011 {
+    margin: 0 9px 5px 0;
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    box-sizing: border-box;
+  }
+  .ejournal .aquarterly-test-in-the-subject-of-mathematical-analysis-and-matrix-multiplication-9 {
+    margin-right: 3.1px;
+    overflow-wrap: break-word;
+    font-family: 'TT Commons', 'Roboto Condensed';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1;
+    color: #757B88;
+  }
+  .ejournal .frame-899 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+  }
+  .ejournal .minutes-9 {
+    position: absolute;
+    left: 4px;
+    bottom: -1px;
+    overflow-wrap: break-word;
+    font-family: 'TT Commons', 'Roboto Condensed';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1;
+    color: #757B88;
+  }
+  .minutes-9-sub15 {
+    font-family: 'TT Commons', 'Roboto Condensed';
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1.333;
+  }
+  .ejournal .card-subject-11 {
+    border-radius: 12px;
+    background: #EDE7D9;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 4px 14.2px 14px 4px;
+    box-sizing: border-box;
+  }
+  .ejournal .container-16 {
+    margin: 0 12px 370px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+  }
+  .ejournal .group-12 {
+    width: 20px;
+    height: 20px;
+  }
+  .ejournal .day-week-5 {
+    border-radius: 21px;
+    background: #C0E0EF;
+    margin-right: 6px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 6.5px;
+    width: 33px;
+    height: 33px;
+    box-sizing: border-box;
+  }
+  .ejournal .mathematics-5 {
+    overflow-wrap: break-word;
+    font-family: 'TT Commons', 'Roboto Condensed';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1;
+    color: #120008;
+  }
+  .ejournal .frame-875 {
+    margin: 8.5px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    box-sizing: border-box;
+  }
+  .ejournal .frame-885 {
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    box-sizing: border-box;
+  }
+  .ejournal .ms-simpsons-5 {
+    margin-right: 0.2px;
+    overflow-wrap: break-word;
+    font-family: 'TT Commons', 'Roboto Condensed';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1;
+    color: #757B88;
+  }
+  .ejournal .ellipse-53 {
+    border-radius: 1.5px;
+    background: #757B88;
+    margin: 5.5px 3px 5.5px 0;
+    width: 3px;
+    height: 3px;
+  }
+  .ejournal .group-13 {
+    width: 12px;
+    height: 12px;
+  }
+  .ejournal .furniturefront-door-13 {
+    margin: 1px 1px 1px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 12px;
+    height: 12px;
+    box-sizing: border-box;
+  }
+  .ejournal .container-21 {
+    overflow-wrap: break-word;
+    font-family: 'TT Commons', 'Roboto Condensed';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1;
+    color: #757B88;
+  }
+  .ejournal .frame-354 {
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+  }
+  .ejournal .frame-905 {
+    margin: 0 9px 5px 0;
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    box-sizing: border-box;
+  }
+  .ejournal .aquarterly-test-in-the-subject-of-mathematical-analysis-and-matrix-multiplication-3 {
+    margin-right: 3.1px;
+    overflow-wrap: break-word;
+    font-family: 'TT Commons', 'Roboto Condensed';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1;
+    color: #757B88;
+  }
+  .ejournal .frame-893 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+  }
+  .ejournal .minutes-3 {
+    position: absolute;
+    left: 4px;
+    bottom: -1px;
+    overflow-wrap: break-word;
+    font-family: 'TT Commons', 'Roboto Condensed';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1;
+    color: #757B88;
+  }
+  .minutes-3-sub15 {
+    font-family: 'TT Commons', 'Roboto Condensed';
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1.333;
+  }
+  .ejournal .card-subject-5 {
+    border-radius: 12px;
+    background: #EDE7D9;
+    position: relative;
+    margin-bottom: 6px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 4px 14.2px 0 4px;
+    box-sizing: border-box;
+  }
+  .ejournal .group-20 {
+    width: 20px;
+    height: 20px;
+  }
+  .ejournal .day-week-9 {
+    border-radius: 21px;
+    background: #C0E0EF;
+    margin-right: 6px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 6.5px;
+    width: 33px;
+    height: 33px;
+    box-sizing: border-box;
+  }
+  .ejournal .mathematics-9 {
+    overflow-wrap: break-word;
+    font-family: 'TT Commons', 'Roboto Condensed';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1;
+    color: #120008;
+  }
+  .ejournal .frame-879 {
+    margin: 8.5px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    box-sizing: border-box;
+  }
+  .ejournal .frame-889 {
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    box-sizing: border-box;
+  }
+  .ejournal .ms-simpsons-9 {
+    margin-right: 1.9px;
+    overflow-wrap: break-word;
+    font-family: 'TT Commons', 'Roboto Condensed';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1;
+    color: #757B88;
+  }
+  .ejournal .ellipse-57 {
+    border-radius: 1.5px;
+    background: #757B88;
+    margin: 5.5px 3px 5.5px 0;
+    width: 3px;
+    height: 3px;
+  }
+  .ejournal .group-21 {
+    width: 12px;
+    height: 12px;
+  }
+  .ejournal .furniturefront-door-17 {
+    margin: 1px 1px 1px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 12px;
+    height: 12px;
+    box-sizing: border-box;
+  }
+  .ejournal .container-25 {
+    overflow-wrap: break-word;
+    font-family: 'TT Commons', 'Roboto Condensed';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1;
+    color: #757B88;
+  }
+  .ejournal .frame-358 {
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+  }
+  .ejournal .frame-909 {
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: row;
+    align-self: flex-start;
+    width: fit-content;
+    box-sizing: border-box;
+  }
+  .ejournal .aquarterly-test-in-the-subject-of-mathematical-analysis-and-matrix-multiplication-7 {
+    margin-right: 3.1px;
+    overflow-wrap: break-word;
+    font-family: 'TT Commons', 'Roboto Condensed';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1;
+    color: #757B88;
+  }
+  .ejournal .frame-897 {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+  }
+  .ejournal .minutes-7 {
+    position: absolute;
+    left: 4px;
+    bottom: -1px;
+    overflow-wrap: break-word;
+    font-family: 'TT Commons', 'Roboto Condensed';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1;
+    color: #757B88;
+  }
+  .minutes-7-sub15 {
+    font-family: 'TT Commons', 'Roboto Condensed';
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1.333;
+  }
+  .ejournal .card-subject-9 {
+    border-radius: 12px;
+    background: #EDE7D9;
+    position: relative;
+    margin-bottom: 9px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 4px 14.2px 14px 4px;
+    box-sizing: border-box;
+  }
+  .ejournal .group-26 {
+    width: 20px;
+    height: 20px;
+  }
+  .ejournal .day-week-12 {
+    border-radius: 21px;
+    background: #C0E0EF;
+    margin-right: 6px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 6.5px;
+    width: 33px;
+    height: 33px;
+    box-sizing: border-box;
+  }
+  .ejournal .mathematics-12 {
+    overflow-wrap: break-word;
+    font-family: 'TT Commons', 'Roboto Condensed';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1;
+    color: #120008;
+  }
+  .ejournal .frame-8712 {
+    margin: 8.5px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    box-sizing: border-box;
+  }
+  .ejournal .frame-8812 {
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    box-sizing: border-box;
+  }
+  .ejournal .ms-simpsons-12 {
+    margin-right: 1.9px;
+    overflow-wrap: break-word;
+    font-family: 'TT Commons', 'Roboto Condensed';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1;
+    color: #757B88;
+  }
+  .ejournal .ellipse-510 {
+    border-radius: 1.5px;
+    background: #757B88;
+    margin: 5.5px 3px 5.5px 0;
+    width: 3px;
+    height: 3px;
+  }
+  .ejournal .group-27 {
+    width: 12px;
+    height: 12px;
+  }
+  .ejournal .furniturefront-door-110 {
+    margin: 1px 1px 1px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 12px;
+    height: 12px;
+    box-sizing: border-box;
+  }
+  .ejournal .container-28 {
+    overflow-wrap: break-word;
+    font-family: 'TT Commons', 'Roboto Condensed';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1;
+    color: #757B88;
+  }
+  .ejournal .frame-3511 {
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+  }
+  .ejournal .frame-9012 {
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: row;
+    align-self: flex-start;
+    width: fit-content;
+    box-sizing: border-box;
+  }
+  .ejournal .aquarterly-test-in-the-subject-of-mathematical-analysis-and-matrix-multiplication-10 {
+    margin-right: 3.1px;
+    overflow-wrap: break-word;
+    font-family: 'TT Commons', 'Roboto Condensed';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1;
+    color: #757B88;
+  }
+  .ejournal .frame-8910 {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+  }
+  .ejournal .minutes-10 {
+    position: absolute;
+    left: 4px;
+    bottom: -1px;
+    overflow-wrap: break-word;
+    font-family: 'TT Commons', 'Roboto Condensed';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1;
+    color: #757B88;
+  }
+  .minutes-10-sub15 {
+    font-family: 'TT Commons', 'Roboto Condensed';
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1.333;
+  }
+  .ejournal .card-subject-12 {
+    border-radius: 12px;
+    background: #EDE7D9;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 4px 14.2px 14px 4px;
+    box-sizing: border-box;
+  }
+  .ejournal .container-17 {
+    margin: 138px 13px 232px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+  }
+  .ejournal .group-14 {
+    width: 20px;
+    height: 20px;
+  }
+  .ejournal .day-week-6 {
+    border-radius: 21px;
+    background: #C0E0EF;
+    margin-right: 6px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 6.5px;
+    width: 33px;
+    height: 33px;
+    box-sizing: border-box;
+  }
+  .ejournal .mathematics-6 {
+    overflow-wrap: break-word;
+    font-family: 'TT Commons', 'Roboto Condensed';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1;
+    color: #120008;
+  }
+  .ejournal .frame-876 {
+    margin: 8.5px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    box-sizing: border-box;
+  }
+  .ejournal .frame-886 {
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    box-sizing: border-box;
+  }
+  .ejournal .ms-simpsons-6 {
+    margin-right: 0.2px;
+    overflow-wrap: break-word;
+    font-family: 'TT Commons', 'Roboto Condensed';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1;
+    color: #757B88;
+  }
+  .ejournal .ellipse-54 {
+    border-radius: 1.5px;
+    background: #757B88;
+    margin: 5.5px 3px 5.5px 0;
+    width: 3px;
+    height: 3px;
+  }
+  .ejournal .group-15 {
+    width: 12px;
+    height: 12px;
+  }
+  .ejournal .furniturefront-door-14 {
+    margin: 1px 1px 1px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 12px;
+    height: 12px;
+    box-sizing: border-box;
+  }
+  .ejournal .container-22 {
+    overflow-wrap: break-word;
+    font-family: 'TT Commons', 'Roboto Condensed';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1;
+    color: #757B88;
+  }
+  .ejournal .frame-355 {
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+  }
+  .ejournal .frame-906 {
+    margin: 0 9px 5px 0;
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    box-sizing: border-box;
+  }
+  .ejournal .aquarterly-test-in-the-subject-of-mathematical-analysis-and-matrix-multiplication-4 {
+    margin-right: 3.1px;
+    overflow-wrap: break-word;
+    font-family: 'TT Commons', 'Roboto Condensed';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1;
+    color: #757B88;
+  }
+  .ejournal .frame-894 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+  }
+  .ejournal .minutes-4 {
+    position: absolute;
+    left: 4px;
+    bottom: -1px;
+    overflow-wrap: break-word;
+    font-family: 'TT Commons', 'Roboto Condensed';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1;
+    color: #757B88;
+  }
+  .minutes-4-sub15 {
+    font-family: 'TT Commons', 'Roboto Condensed';
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1.333;
+  }
+  .ejournal .card-subject-6 {
+    border-radius: 12px;
+    background: #EDE7D9;
+    position: relative;
+    margin-bottom: 6px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 4px 14.2px 0 4px;
+    box-sizing: border-box;
+  }
+  .ejournal .group-22 {
+    width: 20px;
+    height: 20px;
+  }
+  .ejournal .day-week-10 {
+    border-radius: 21px;
+    background: #C0E0EF;
+    margin-right: 6px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 6.5px;
+    width: 33px;
+    height: 33px;
+    box-sizing: border-box;
+  }
+  .ejournal .mathematics-10 {
+    overflow-wrap: break-word;
+    font-family: 'TT Commons', 'Roboto Condensed';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1;
+    color: #120008;
+  }
+  .ejournal .frame-8710 {
+    margin: 8.5px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    box-sizing: border-box;
+  }
+  .ejournal .frame-8810 {
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    box-sizing: border-box;
+  }
+  .ejournal .ms-simpsons-10 {
+    margin-right: 1.9px;
+    overflow-wrap: break-word;
+    font-family: 'TT Commons', 'Roboto Condensed';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1;
+    color: #757B88;
+  }
+  .ejournal .ellipse-58 {
+    border-radius: 1.5px;
+    background: #757B88;
+    margin: 5.5px 3px 5.5px 0;
+    width: 3px;
+    height: 3px;
+  }
+  .ejournal .group-23 {
+    width: 12px;
+    height: 12px;
+  }
+  .ejournal .furniturefront-door-18 {
+    margin: 1px 1px 1px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 12px;
+    height: 12px;
+    box-sizing: border-box;
+  }
+  .ejournal .container-26 {
+    overflow-wrap: break-word;
+    font-family: 'TT Commons', 'Roboto Condensed';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1;
+    color: #757B88;
+  }
+  .ejournal .frame-359 {
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+  }
+  .ejournal .frame-9010 {
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: row;
+    align-self: flex-start;
+    width: fit-content;
+    box-sizing: border-box;
+  }
+  .ejournal .aquarterly-test-in-the-subject-of-mathematical-analysis-and-matrix-multiplication-8 {
+    margin-right: 3.1px;
+    overflow-wrap: break-word;
+    font-family: 'TT Commons', 'Roboto Condensed';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1;
+    color: #757B88;
+  }
+  .ejournal .frame-898 {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+  }
+  .minutes-8-sub15 {
+    font-family: 'TT Commons', 'Roboto Condensed';
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1.333;
+  }
+  .ejournal .minutes-8 {
+    position: absolute;
+    left: 4px;
+    bottom: -1px;
+    overflow-wrap: break-word;
+    font-family: 'TT Commons', 'Roboto Condensed';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1;
+    color: #757B88;
+  }
+  .ejournal .card-subject-10 {
+    border-radius: 12px;
+    background: #EDE7D9;
+    position: relative;
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 4px 14.2px 14px 4px;
+    box-sizing: border-box;
+  }
+  .ejournal .group-28 {
+    width: 20px;
+    height: 20px;
+  }
+  .ejournal .day-week-13 {
+    border-radius: 21px;
+    background: #C0E0EF;
+    margin-right: 6px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 6.5px;
+    width: 33px;
+    height: 33px;
+    box-sizing: border-box;
+  }
+  .ejournal .mathematics-13 {
+    overflow-wrap: break-word;
+    font-family: 'TT Commons', 'Roboto Condensed';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1;
+    color: #120008;
+  }
+  .ejournal .frame-8713 {
+    margin: 8.5px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    box-sizing: border-box;
+  }
+  .ejournal .frame-8813 {
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    box-sizing: border-box;
+  }
+  .ejournal .ms-simpsons-13 {
+    margin-right: 0.2px;
+    overflow-wrap: break-word;
+    font-family: 'TT Commons', 'Roboto Condensed';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1;
+    color: #757B88;
+  }
+  .ejournal .ellipse-511 {
+    border-radius: 1.5px;
+    background: #757B88;
+    margin: 5.5px 3px 5.5px 0;
+    width: 3px;
+    height: 3px;
+  }
+  .ejournal .group-29 {
+    width: 12px;
+    height: 12px;
+  }
+  .ejournal .furniturefront-door-111 {
+    margin: 1px 1px 1px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 12px;
+    height: 12px;
+    box-sizing: border-box;
+  }
+  .ejournal .container-29 {
+    overflow-wrap: break-word;
+    font-family: 'TT Commons', 'Roboto Condensed';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1;
+    color: #757B88;
+  }
+  .ejournal .frame-3512 {
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+  }
+  .ejournal .frame-9013 {
+    margin: 0 9px 5px 0;
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    box-sizing: border-box;
+  }
+  .ejournal .aquarterly-test-in-the-subject-of-mathematical-analysis-and-matrix-multiplication-11 {
+    margin-right: 3.1px;
+    overflow-wrap: break-word;
+    font-family: 'TT Commons', 'Roboto Condensed';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1;
+    color: #757B88;
+  }
+  .ejournal .frame-8911 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+  }
+  .ejournal .minutes-11 {
+    position: absolute;
+    left: 4px;
+    bottom: -1px;
+    overflow-wrap: break-word;
+    font-family: 'TT Commons', 'Roboto Condensed';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1;
+    color: #757B88;
+  }
+  .minutes-11-sub15 {
+    font-family: 'TT Commons', 'Roboto Condensed';
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1.333;
+  }
+  .ejournal .card-subject-13 {
+    border-radius: 12px;
+    background: #EDE7D9;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 4px 14.2px 14px 4px;
+    box-sizing: border-box;
+  }
+  .ejournal .container-12 {
+    margin: 0 11px 374px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+  }
+  .ejournal .group-7 {
+    width: 20px;
+    height: 20px;
+  }
+  .ejournal .day-week-2 {
+    border-radius: 21px;
+    background: #6C8698;
+    margin-right: 6px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 6.5px;
+    width: 33px;
+    height: 33px;
+    box-sizing: border-box;
+  }
+  .ejournal .mathematics-2 {
+    overflow-wrap: break-word;
+    font-family: 'TT Commons', 'Roboto Condensed';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1;
+    color: #120008;
+  }
+  .ejournal .frame-872 {
+    margin: 0.5px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    box-sizing: border-box;
+  }
+  .ejournal .frame-882 {
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: row;
+    align-self: flex-start;
+    width: fit-content;
+    box-sizing: border-box;
+  }
+  .ejournal .ms-simpsons-2 {
+    overflow-wrap: break-word;
+    font-family: 'TT Commons', 'Roboto Condensed';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1;
+    color: #212C32;
+  }
+  .ejournal .frame-902 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: flex-start;
+    box-sizing: border-box;
+  }
+  .ejournal .card-subject-2 {
+    border-radius: 12px;
+    background: #CED7DC;
+    margin-bottom: 675px;
+    display: flex;
+    flex-direction: column;
+    padding: 4px 0 75px 4px;
+    width: 140px;
+    box-sizing: border-box;
+  }
+  .ejournal .container-10 {
+    margin: 0 7px;
+    display: flex;
+    flex-direction: row;
+    align-self: flex-start;
+    width: fit-content;
+    box-sizing: border-box;
+  }
+  .ejournal .rectangle-11 {
+    border-radius: 3px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    height: 100%;
+  }
+  .ejournal .time {
+    position: relative;
+    overflow-wrap: break-word;
+    font-family: 'TT Commons', 'Roboto Condensed';
+    font-weight: 400;
+    font-size: 16px;
+    color: #410C23;
+  }
+  .ejournal .point-1 {
+    position: absolute;
+    left: -40px;
+    top: -10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 1px 3.7px 0 3px;
+    height: 20px;
+    box-sizing: border-box;
+  }
+  .ejournal .container-6 {
+    width: 910px;
+    height: 1px;
+  }
+  .ejournal .divider-stroke-4 {
+    margin-right: 20px;
+    width: 304px;
+    height: 1px;
+  }
+  .ejournal .divider-stroke-5 {
+    width: 304px;
+    height: 1px;
+  }
+  .ejournal .frame-85 {
+    position: absolute;
+    top: 0px;
+    right: -951px;
+    display: flex;
+    flex-direction: row;
+    width: 628px;
+    height: 1px;
+    box-sizing: border-box;
+  }
+  .ejournal .point {
+    position: absolute;
+    left: 47px;
+    top: 467px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 910px;
+    height: 1px;
+    box-sizing: border-box;
+  }
+  .ejournal .container-14 {
+    position: relative;
+    margin-right: 28px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+  }
+  .ejournal .rectangle-26 {
+    border-radius: 12px;
+    background: #B0A17C;
+    margin: 216px 0 609px 0;
+    width: 5px;
+    height: 155px;
+  }
+  .ejournal {
+    background: #FAF4E5;
+    display: flex;
+    flex-direction: row;
+    padding: 44px 9px 0 26px;
+    width: 1440px;
+    box-sizing: border-box;
+  }
+  

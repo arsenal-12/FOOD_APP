@@ -1,0 +1,1280 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>page5</title>
+    <link rel="stylesheet" href="page5.css" />
+    <style>
+ 
+   /* Style for the cover div */
+   .cover {
+    background: url('../assets/images/cover.png') 50% / cover no-repeat;
+    width: calc(100% - 10px); /* Adjust as needed */
+    height: 100vh; /* Adjust as needed */
+    overflow-y: scroll; /* Enable vertical scrollbar */
+    position: relative; /* Set position to relative */
+    padding-right: 10px; /* Add padding to accommodate scrollbar */
+  }
+  .dot:nth-child(1) {
+    position: relative;
+    top: calc(50% - 50px);
+    left: 20%;
+  }
+  
+  .dot:nth-child(2) {
+    position: relative;
+    top: calc(50% - 30px);
+    top:35px;
+    left: 35%;
+  }
+  
+  .dot:nth-child(3) {
+    position: relative;
+    top: calc(50% - 10px);
+    top:70px;
+    left: 50%;
+  }
+  
+  .dot:nth-child(4) {
+    position: relative;
+    top: calc(50% + 10px);
+    top:100px;
+    left: 50%;
+  }
+  
+  .dot:nth-child(5) {
+    position: relative;
+    top: calc(50% + 30px);
+    top:140px;
+    left: 45px;
+  }
+  
+  .dot:nth-child(6) {
+    position: relative;
+    top: calc(50% + 50px);
+    top:200px;
+    left: -15px;
+  }
+  
+  .dot:nth-child(7) {
+    position: relative;
+    top: 240px;
+    left: -65px;
+    transform: translateX(-50%);
+  }
+  
+  .dot-container {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: row;
+}
+
+  /* Style for the custom scrollbar */
+  .cover::-webkit-scrollbar {
+    width: 6px; /* Width of the scrollbar */
+    height: 10px; /* Height of the scrollbar */
+  }
+
+  .cover::-webkit-scrollbar-thumb {
+    background-color: rgb(83, 15, 173); /* Color of the scrollbar thumb */
+    border-radius: 3px;
+    height: 1px; /* Adjust border-radius for rounded corners */
+  }
+
+  .cover::-webkit-scrollbar {
+    width: 6px; /* Width of the scrollbar */
+  }
+  .dot {
+    width: 10px;
+    height: 10px;
+    background-color: #007bff;
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+  }
+  .cover::-webkit-scrollbar-track {
+    background-color: #1bf126; /* Color of the scrollbar track */
+    border-radius: 3px; /* Adjust border-radius for rounded corners */
+    box-shadow: inset 0 0 5px grey; /* Add shadow to track */
+    width: 4px; /* Adjust the width of the track */
+    height: 20px; /* Adjust the height of the track */
+    right: 10px; /* Adjust the distance from the right edge */
+  }
+  
+ 
+  
+    </style>
+  </head>
+  <body>
+    <div class="ejournal-2">
+
+      <div class="frame-442">
+        <div class="menu-left-panel">
+        </div>
+        <div class="frame-441">
+          <div class="frame-440">
+            <div class="frame-51">
+              <div class="logo">
+                <img class="group-1" src="../assets/vectors/Unknown" />
+              </div>
+              <div class="vector-2">
+              </div>
+            </div>
+            <div class="frame-439">
+              <img class="sign" src="../assets/vectors/Unknown" />
+              <span class="title">
+              Imagination <br />
+              Lab <br />
+              School
+              </span>
+            </div>
+          </div>
+          <div class="frame-11">
+            <div class="top">
+              <div class="frame-9">
+                <div class="hints">
+                  <span class="main">
+                  Main
+                  </span>
+                </div>
+                <div class="line">
+                  <div class="menu-line">
+                    <div class="servers-databases-servers-databases">
+                      <img class="group-2" src="../assets/vectors/Unknown" />
+                    </div>
+                    <span class="container-3">
+                    Administration
+                    </span>
+                  </div>
+                  <div class="menu-line-1">
+                    <div class="interface-essentialchart-analytic-statistics">
+                      <img class="group-3" src="../assets/vectors/Unknown" />
+                    </div>
+                    <div class="container-4">
+                    Analytics/Reporting
+                    </div>
+                  </div>
+                  <div class="menu-line-2">
+                    <div class="divider">
+                    </div>
+                    <div class="content">
+                      <div class="school-learningbook-read-house">
+                        <img class="group-4" src="../assets/vectors/Unknown" />
+                      </div>
+                      <div class="container-5">
+                      E-Journal
+                      </div>
+                    </div>
+                  </div>
+                  <div class="menu-line-3">
+                    <div class="content-edittext-edit-pen-circle">
+                      <img class="group-5" src="../assets/vectors/Unknown" />
+                    </div>
+                    <div class="container-6">
+                    Testing
+                    </div>
+                  </div>
+                  <div class="menu-line-4">
+                    <div class="office-workemployee-video-call-camera">
+                      <div class="container-11">
+                        <img class="path-19" src="../assets/vectors/Unknown" />
+                        <div class="rectangle-1">
+                        </div>
+                        <img class="path-22" src="../assets/vectors/Unknown" />
+                      </div>
+                      <div class="container-20">
+                        <div class="container-10">
+                          <div class="oval">
+                          </div>
+                          <img class="path-21" src="../assets/vectors/Unknown" />
+                        </div>
+                        <img class="path-20" src="../assets/vectors/Unknown" />
+                      </div>
+                    </div>
+                    <div class="container-7">
+                    Online meetings
+                    </div>
+                  </div>
+                  <div class="menu-line-5">
+                    <div class="school-learningbook-user">
+                      <img class="group-6" src="../assets/vectors/Unknown" />
+                    </div>
+                    <div class="container-8">
+                    Teacher&#39;s office
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="frame-10">
+                <div class="hints-1">
+                  <span class="other">
+                  Other
+                  </span>
+                </div>
+                <div class="line-1">
+                  <div class="menu-line-6">
+                    <div class="internet-network-browser-internet-web-network-window-edit">
+                      <img class="group-7" src="../assets/vectors/Unknown" />
+                    </div>
+                    <span class="container-9">
+                    Website Builder
+                    </span>
+                  </div>
+                  <div class="menu-line-7">
+                    <div class="social-mediaubuntu">
+                      <img class="group-8" src="../assets/vectors/Unknown" />
+                    </div>
+                    <div class="container-10">
+                    Social
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="bottom">
+              <div class="interface-essential-settings">
+                <img class="group-9" src="../assets/vectors/Unknown" />
+              </div>
+              <div class="container-11">
+              Settings
+              </div>
+            </div>
+          </div>
+        </div>
+        <img class="arrow" src="../assets/vectors/Unknown" />
+      </div>
+      <div class="container-7">
+        <div class="header">
+          <div class="frame-445">
+            <div class="search-input">
+              <div class="leading">
+                <div class="cta">
+                  <div class="interface-essential-search-loupe">
+                    <img class="group" src="../assets/vectors/Unknown" />
+                  </div>
+                  <div class="frame-12">
+                    <span class="ctrl-f">
+                    Ctrl f
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div class="filtrs">
+                <div class="hint">
+                Search in:
+                </div>
+                <div class="frame-13">
+                  <div class="frame-3">
+                    <span class="pupils">
+                    Pupils
+                    </span>
+                  </div>
+                  <div class="tags">
+                    <span class="container-1">
+                    Teachers
+                    </span>
+                  </div>
+                  <div class="tags-1">
+                    <span class="container-2">
+                    Tests
+                    </span>
+                  </div>
+                  <div class="frame-4">
+                    <span class="emagazine">
+                    E-Magazine
+                    </span>
+
+                  </div>
+
+                </div>
+              </div>
+            </div>
+            <button onclick="navigateToCover()">Resize</button>
+
+          </div>
+          <div class="container-16">
+            <div class="frame-16">
+              <div class="frame-15">
+                <img class="path-49" src="../assets/vectors/Unknown" />
+              </div>
+            </div>
+            <div class="ellipse-4">
+            </div>
+            <img class="menu" src="../assets/vectors/Unknown" />
+          </div>
+          <div class="icon-body-2">
+            <div class="frame-14">
+            </div>
+          </div>
+          <img class="union-1" src="../assets/vectors/Unknown" />
+        </div>
+        <div class="container-5">
+          <div class="frame-17">
+            <div class="cta-1">
+              <img class="path-59" src="../assets/vectors/Unknown" />
+            </div>
+            <span class="brainiacs-class">
+            Brainiacs class
+            </span>
+          </div>
+          <div class="frame-446">
+            <img class="union" src="../assets/vectors/Unknown" />
+            <div class="cta-1">
+              <div class="interface-essentialcheckmark-circle-1">
+                <img class="group-10" src="../assets/vectors/Unknown" />
+              </div>
+              <div class="record-grades">
+              Record grades
+              </div>
+            </div>
+            <div class="icon-body">
+              <img class="layer-2" src="../assets/vectors/Unknown" />
+            </div>
+          </div>
+        </div>
+        <div class="frame-447">
+          <div class="frame-131">
+            <div class="frame-31">
+              <span class="september">
+              September
+              </span>
+            </div>
+            <div class="frame-5">
+              <span class="october">
+              October
+              </span>
+            </div>
+            <div class="tags-2">
+              <span class="container-118">
+              November
+              </span>
+            </div>
+            <div class="tags-3">
+              <span class="container-119">
+              December
+              </span>
+            </div>
+            <div class="tags-4">
+              <span class="container-120">
+              January
+              </span>
+            </div>
+            <div class="tags-5">
+              <span class="container-121">
+              February
+              </span>
+            </div>
+            <div class="tags-6">
+              <span class="container-122">
+              March
+              </span>
+            </div>
+            <div class="tags-7">
+              <span class="container-123">
+              April
+              </span>
+            </div>
+            <div class="tags-8">
+              <span class="container-124">
+              May
+              </span>
+            </div>
+            <div class="tags-9">
+              <span class="container-125">
+              June
+              </span>
+            </div>
+            <div class="frame-41">
+              <span class="july">
+              July
+              </span>
+            </div>
+            <div class="frame-6">
+              <span class="august">
+              August
+              </span>
+            </div>
+          </div>
+          <div class="frame-97">
+            <div class="container-9">
+              <div class="frame-128">
+                <div class="content-editnotes-book-pen">
+                  <img class="group-11" src="../assets/vectors/Unknown" />
+                </div>
+                <span class="submit-the-thematic-assessment-by-2803">
+                Submit the thematic assessment by 28.03
+                </span>
+              </div>
+              <div class="frame-1271">
+                <div class="frame-1071">
+                  <span class="fri">
+                  Fri
+                  </span>
+                  <span class="container">
+                  1.03
+                  </span>
+                </div>
+                <div class="frame-108">
+                  <span class="fri-12">
+                  Mon
+                  </span>
+                  <span class="container-139">
+                  4.03
+                  </span>
+                </div>
+                <div class="frame-109">
+                  <span class="fri-13">
+                  Tue
+                  </span>
+                  <span class="container-140">
+                  5.03
+                  </span>
+                </div>
+                <div class="frame-110">
+                  <span class="fri-14">
+                  Wen
+                  </span>
+                  <span class="container-141">
+                  6.03
+                  </span>
+                </div>
+                <div class="frame-111">
+                  <span class="fri-15">
+                  Thu
+                  </span>
+                  <span class="container-142">
+                  7.03
+                  </span>
+                </div>
+                <div class="frame-112">
+                  <span class="fri-16">
+                  Fri
+                  </span>
+                  <span class="container-143">
+                  8.03
+                  </span>
+                </div>
+                <div class="frame-113">
+                  <span class="fri-17">
+                  Mon
+                  </span>
+                  <span class="container-144">
+                  11.03
+                  </span>
+                </div>
+                <div class="frame-114">
+                  <span class="fri-18">
+                  Tue
+                  </span>
+                  <span class="container-145">
+                  12.03
+                  </span>
+                </div>
+                <div class="frame-115">
+                  <span class="fri-19">
+                  Wen
+                  </span>
+                  <span class="container-146">
+                  13.03
+                  </span>
+                </div>
+                <div class="frame-116">
+                  <span class="fri-20">
+                  Thu
+                  </span>
+                  <span class="container-147">
+                  14.03
+                  </span>
+                </div>
+                <div class="frame-117">
+                  <span class="fri-1">
+                  Fri
+                  </span>
+                  <span class="container-12">
+                  15.03
+                  </span>
+                </div>
+                <div class="frame-118">
+                  <span class="fri-2">
+                  Mon
+                  </span>
+                  <span class="container-13">
+                  18.03
+                  </span>
+                </div>
+                <div class="frame-119">
+                  <span class="fri-3">
+                  Tue
+                  </span>
+                  <span class="container-14">
+                  19.03
+                  </span>
+                </div>
+                <div class="frame-120">
+                  <span class="fri-4">
+                  Wen
+                  </span>
+                  <span class="container-15">
+                  20.03
+                  </span>
+                </div>
+                <div class="frame-121">
+                  <span class="fri-5">
+                  Thu
+                  </span>
+                  <span class="container-16">
+                  21.03
+                  </span>
+                </div>
+                <div class="frame-122">
+                  <span class="fri-6">
+                  Fri
+                  </span>
+                  <span class="container-17">
+                  22.03
+                  </span>
+                </div>
+                <div class="frame-123">
+                  <span class="fri-7">
+                  Mon
+                  </span>
+                  <span class="container-18">
+                  25.03
+                  </span>
+                </div>
+                <div class="frame-124">
+                  <span class="fri-8">
+                  Tue
+                  </span>
+                  <span class="container-19">
+                  26.03
+                  </span>
+                </div>
+                <div class="frame-125">
+                  <span class="fri-9">
+                  Wen
+                  </span>
+                  <span class="container-20">
+                  27.03
+                  </span>
+                </div>
+                <div class="frame-126">
+                  <span class="fri-10">
+                  Thu
+                  </span>
+                  <span class="container-21">
+                  28.03
+                  </span>
+                </div>
+                <div class="frame-127">
+                  <span class="fri-11">
+                  Fri
+                  </span>
+                  <span class="container-22">
+                  29.03
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="container-4">
+              <div class="frame-106">
+                <div class="frame-93">
+                  <div class="tags-day-week">
+                    <span class="container-126">
+                    1
+                    </span>
+                  </div>
+                  <span class="emily-johnson">
+                  Emily Johnson
+                  </span>
+                </div>
+                <div class="frame-94">
+                  <div class="tags-day-week-1">
+                    <span class="container-127">
+                    2
+                    </span>
+                  </div>
+                  <span class="michael-smith">
+                  Michael Smith
+                  </span>
+                </div>
+                <div class="frame-95">
+                  <div class="tags-day-week-2">
+                    <span class="container-128">
+                    3
+                    </span>
+                  </div>
+                  <span class="sarah-davis">
+                  Sarah Davis
+                  </span>
+                </div>
+                <div class="frame-96">
+                  <div class="tags-day-week-3">
+                    <span class="container-129">
+                    4
+                    </span>
+                  </div>
+                  <span class="christopher-brown">
+                  Christopher Brown
+                  </span>
+                </div>
+                <div class="frame-971">
+                  <div class="tags-day-week-4">
+                    <span class="container-130">
+                    5
+                    </span>
+                  </div>
+                  <span class="jessica-martinez">
+                  Jessica Martinez
+                  </span>
+                </div>
+                <div class="frame-98">
+                  <div class="tags-day-week-5">
+                    <span class="container-131">
+                    6
+                    </span>
+                  </div>
+                  <span class="matthew-anderson">
+                  Matthew Anderson
+                  </span>
+                </div>
+                <div class="frame-99">
+                  <div class="tags-day-week-6">
+                    <span class="container-132">
+                    7
+                    </span>
+                  </div>
+                  <span class="amanda-taylor">
+                  Amanda Taylor
+                  </span>
+                </div>
+                <div class="frame-100">
+                  <div class="tags-day-week-7">
+                    <span class="container-133">
+                    8
+                    </span>
+                  </div>
+                  <span class="joshua-wilson">
+                  Joshua Wilson
+                  </span>
+                </div>
+                <div class="frame-101">
+                  <div class="tags-day-week-8">
+                    <span class="container-134">
+                    9
+                    </span>
+                  </div>
+                  <span class="ashley-rodriguez">
+                  Ashley Rodriguez
+                  </span>
+                </div>
+                <div class="frame-102">
+                  <div class="tags-day-week-9">
+                    <span class="container-135">
+                    10
+                    </span>
+                  </div>
+                  <span class="daniel-thompson">
+                  Daniel Thompson
+                  </span>
+                </div>
+                <div class="frame-103">
+                  <div class="tags-day-week-10">
+                    <span class="container-136">
+                    11
+                    </span>
+                  </div>
+                  <span class="elizabeth-garcia">
+                  Elizabeth Garcia
+                  </span>
+                </div>
+                <div class="frame-104">
+                  <div class="tags-day-week-11">
+                    <span class="container-137">
+                    12
+                    </span>
+                  </div>
+                  <span class="ryan-miller">
+                  Ryan Miller
+                  </span>
+                </div>
+                <div class="frame-105">
+                  <div class="tags-day-week-12">
+                    <span class="container-138">
+                    13
+                    </span>
+                  </div>
+                  <span class="olivia-scott">
+                  Olivia Scott
+                  </span>
+                </div>
+              </div>
+              <div class="container">
+                <div class="frame-107">
+                  <span class="container-23">
+                  A
+                  </span>
+                </div>
+                <div class="frame-129">
+                  <span class="container-32">
+                  N/A
+                  </span>
+                </div>
+                <div class="frame-130">
+                  <span class="container-40">
+                  F
+                  </span>
+                </div>
+                <div class="frame-139">
+                </div>
+              </div>
+              <div class="frame-152">
+              </div>
+              <div class="container-3">
+                <div class="frame-154">
+                  <span class="container-29">
+                  A+
+                  </span>
+                </div>
+                <div class="frame-155">
+                  <span class="container-37">
+                  A+
+                  </span>
+                </div>
+                <div class="frame-162">
+                  <span class="container-77">
+                  A
+                  </span>
+                </div>
+                <div class="frame-165">
+                </div>
+              </div>
+              <div class="container-2">
+                <div class="frame-167">
+                  <span class="container-30">
+                  N/A
+                  </span>
+                </div>
+                <div class="frame-168">
+                  <span class="container-38">
+                  B
+                  </span>
+                </div>
+                <div class="frame-172">
+                  <span class="container-60">
+                  A
+                  </span>
+                </div>
+                <div class="frame-173">
+                  <span class="container-66">
+                  A
+                  </span>
+                </div>
+                <div class="frame-178">
+                </div>
+              </div>
+              <div class="container-14">
+                <div class="frame-180">
+                  <span class="container-26">
+                  B
+                  </span>
+                </div>
+                <div class="frame-184">
+                  <span class="container-34">
+                  B
+                  </span>
+                </div>
+                <div class="frame-188">
+                  <span class="container-42">
+                  F
+                  </span>
+                </div>
+                <div class="frame-192">
+                  <span class="container-47">
+                  C
+                  </span>
+                </div>
+                <div class="frame-196">
+                  <span class="container-52">
+                  F
+                  </span>
+                </div>
+                <div class="frame-200">
+                  <span class="container-57">
+                  F
+                  </span>
+                </div>
+                <div class="frame-204">
+                  <span class="container-63">
+                  B
+                  </span>
+                </div>
+                <div class="frame-208">
+                  <span class="container-69">
+                  F
+                  </span>
+                </div>
+                <div class="frame-212">
+                  <span class="container-74">
+                  F
+                  </span>
+                </div>
+                <div class="frame-216">
+                  <span class="container-81">
+                  F
+                  </span>
+                </div>
+                <div class="frame-220">
+                  <span class="container-90">
+                  A
+                  </span>
+                </div>
+                <div class="frame-224">
+                  <span class="container-100">
+                  C
+                  </span>
+                </div>
+                <div class="frame-228">
+                  <span class="container-110">
+                  F
+                  </span>
+                </div>
+              </div>
+              <div class="container-19">
+                <div class="frame-181">
+                  <span class="container-28">
+                  B
+                  </span>
+                </div>
+                <div class="frame-185">
+                  <span class="container-36">
+                  B
+                  </span>
+                </div>
+                <div class="frame-189">
+                  <span class="container-44">
+                  B
+                  </span>
+                </div>
+                <div class="frame-193">
+                  <span class="container-49">
+                  C
+                  </span>
+                </div>
+                <div class="frame-197">
+                  <span class="container-54">
+                  F
+                  </span>
+                </div>
+                <div class="frame-201">
+                  <span class="container-59">
+                  C
+                  </span>
+                </div>
+                <div class="frame-205">
+                  <span class="container-65">
+                  B
+                  </span>
+                </div>
+                <div class="frame-209">
+                  <span class="container-71">
+                  F
+                  </span>
+                </div>
+                <div class="frame-213">
+                  <span class="container-76">
+                  Н
+                  </span>
+                </div>
+                <div class="frame-217">
+                  <span class="container-84">
+                  C
+                  </span>
+                </div>
+                <div class="frame-221">
+                  <span class="container-93">
+                  B
+                  </span>
+                </div>
+                <div class="frame-225">
+                  <span class="container-103">
+                  C
+                  </span>
+                </div>
+                <div class="frame-229">
+                  <span class="container-113">
+                  F
+                  </span>
+                </div>
+              </div>
+              <div class="frame-226">
+              </div>
+              <div class="container-8">
+                <div class="frame-219">
+                  <span class="container-87">
+                  N/A
+                  </span>
+                </div>
+                <div class="frame-223">
+                  <span class="container-96">
+                  N/A
+                  </span>
+                </div>
+                <div class="frame-227">
+                  <span class="container-106">
+                  N/A
+                  </span>
+                </div>
+                <div class="frame-231">
+                  <span class="container-116">
+                  N/A
+                  </span>
+                </div>
+              </div>
+              <div class="container-12">
+                <div class="frame-232">
+                  <span class="container-24">
+                  C
+                  </span>
+                </div>
+                <div class="frame-304">
+                  <span class="container-79">
+                  N/A
+                  </span>
+                </div>
+                <div class="frame-312">
+                  <span class="container-89">
+                  N/A
+                  </span>
+                </div>
+                <div class="frame-320">
+                  <span class="container-98">
+                  N/A
+                  </span>
+                </div>
+                <div class="frame-328">
+                  <span class="container-108">
+                  N/A
+                  </span>
+                </div>
+              </div>
+              <div class="container-13">
+                <div class="frame-306">
+                  <span class="container-83">
+                  N/A
+                  </span>
+                </div>
+                <div class="frame-314">
+                  <span class="container-92">
+                  N/A
+                  </span>
+                </div>
+                <div class="frame-322">
+                  <span class="container-102">
+                  N/A
+                  </span>
+                </div>
+                <div class="frame-330">
+                  <span class="container-112">
+                  N/A
+                  </span>
+                </div>
+              </div>
+              <div class="container-15">
+                <div class="frame-308">
+                  <span class="container-85">
+                  N/A
+                  </span>
+                </div>
+                <div class="frame-316">
+                  <span class="container-94">
+                  N/A
+                  </span>
+                </div>
+                <div class="frame-324">
+                  <span class="container-104">
+                  N/A
+                  </span>
+                </div>
+                <div class="frame-332">
+                  <span class="container-114">
+                  N/A
+                  </span>
+                </div>
+              </div>
+              <div class="container-6">
+                <div class="frame-310">
+                  <span class="container-86">
+                  N/A
+                  </span>
+                </div>
+                <div class="frame-318">
+                  <span class="container-95">
+                  N/A
+                  </span>
+                </div>
+                <div class="frame-326">
+                  <span class="container-105">
+                  N/A
+                  </span>
+                </div>
+                <div class="frame-334">
+                  <span class="container-115">
+                  N/A
+                  </span>
+                </div>
+              </div>
+              <div class="container-1">
+                <div class="frame-233">
+                  <span class="container-27">
+                  C
+                  </span>
+                </div>
+                <div class="frame-241">
+                  <span class="container-35">
+                  C
+                  </span>
+                </div>
+                <div class="frame-249">
+                  <span class="container-43">
+                  F
+                  </span>
+                </div>
+                <div class="frame-257">
+                  <span class="container-48">
+                  A
+                  </span>
+                </div>
+                <div class="frame-265">
+                  <span class="container-53">
+                  B
+                  </span>
+                </div>
+                <div class="frame-273">
+                  <span class="container-58">
+                  B
+                  </span>
+                </div>
+                <div class="frame-281">
+                  <span class="container-64">
+                  B
+                  </span>
+                </div>
+                <div class="frame-289">
+                  <span class="container-70">
+                  F
+                  </span>
+                </div>
+                <div class="frame-297">
+                  <span class="container-75">
+                  B
+                  </span>
+                </div>
+                <div class="frame-305">
+                  <span class="container-82">
+                  A
+                  </span>
+                </div>
+                <div class="frame-313">
+                  <span class="container-91">
+                  F
+                  </span>
+                </div>
+                <div class="frame-321">
+                  <span class="container-101">
+                  C
+                  </span>
+                </div>
+                <div class="frame-329">
+                  <span class="container-111">
+                  C
+                  </span>
+                </div>
+              </div>
+              <div class="frame-323">
+              </div>
+              <div class="frame-325">
+              </div>
+              <div class="container-17">
+                <div class="frame-239">
+                  <span class="container-31">
+                  A
+                  </span>
+                </div>
+                <div class="frame-247">
+                  <span class="container-39">
+                  A
+                  </span>
+                </div>
+                <div class="frame-255">
+                  <span class="container-45">
+                  B
+                  </span>
+                </div>
+                <div class="frame-263">
+                  <span class="container-50">
+                  C
+                  </span>
+                </div>
+                <div class="frame-271">
+                  <span class="container-55">
+                  A+
+                  </span>
+                </div>
+                <div class="frame-279">
+                  <span class="container-61">
+                  A+
+                  </span>
+                </div>
+                <div class="frame-287">
+                  <span class="container-67">
+                  A+
+                  </span>
+                </div>
+                <div class="frame-295">
+                  <span class="container-72">
+                  B
+                  </span>
+                </div>
+                <div class="frame-303">
+                  <span class="container-78">
+                  B
+                  </span>
+                </div>
+                <div class="frame-311">
+                  <span class="container-88">
+                  B
+                  </span>
+                </div>
+                <div class="frame-319">
+                  <span class="container-97">
+                  C
+                  </span>
+                </div>
+                <div class="frame-327">
+                  <span class="container-107">
+                  F
+                  </span>
+                </div>
+                <div class="frame-335">
+                  <span class="container-117">
+                  C
+                  </span>
+                </div>
+              </div>
+              <div class="container-18">
+                <div class="frame-336">
+                  <span class="container-25">
+                  A
+                  </span>
+                </div>
+                <div class="frame-344">
+                  <span class="container-33">
+                  A+
+                  </span>
+                </div>
+                <div class="frame-352">
+                  <span class="container-41">
+                  B
+                  </span>
+                </div>
+                <div class="frame-360">
+                  <span class="container-46">
+                  F
+                  </span>
+                </div>
+                <div class="frame-368">
+                  <span class="container-51">
+                  A+
+                  </span>
+                </div>
+                <div class="frame-376">
+                  <span class="container-56">
+                  8
+                  </span>
+                </div>
+                <div class="frame-384">
+                  <span class="container-62">
+                  B
+                  </span>
+                </div>
+                <div class="frame-392">
+                  <span class="container-68">
+                  B
+                  </span>
+                </div>
+                <div class="frame-400">
+                  <span class="container-73">
+                  B
+                  </span>
+                </div>
+                <div class="frame-408">
+                  <span class="container-80">
+                  B
+                  </span>
+                </div>
+                <div class="frame-416">
+                </div>
+                <div class="frame-424">
+                  <span class="container-99">
+                  A |
+                  </span>
+                </div>
+                <div class="frame-432">
+                  <span class="container-109">
+                  A
+                  </span>
+                </div>
+              </div>
+              <div class="frame-426">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="dot-container">
+        <div class="dot" onclick="window.location.href='cover.html'"></div>
+        <div class="dot" onclick="window.location.href='page1.html'"></div>
+        <div class="dot" onclick="window.location.href='page2.html'"></div>
+        <div class="dot" onclick="window.location.href='page3.html'"></div>
+        <div class="dot" onclick="window.location.href='page4.html'"></div>
+        <div class="dot" onclick="window.location.href='page5.html'"></div>
+      </div>
+    </div>
+
+    <script>
+      let lastScrollPosition = window.pageYOffset || document.documentElement.scrollTop;
+    
+      window.addEventListener('scroll', function() {
+        const currentScrollPosition = window.pageYOffset || document.documentElement.scrollTop;
+    
+        // Check if scrolling up
+        if (currentScrollPosition < lastScrollPosition) {
+          console.log('Scrolling up');
+          // Redirect to page1.html
+          window.location.href = 'page4.html';
+        } else {
+          // Check if scrolling down to the bottom
+          const windowHeight = window.innerHeight;
+          const documentHeight = document.body.offsetHeight;
+          if (currentScrollPosition + windowHeight >= documentHeight) {
+            console.log('Scrolling down to the bottom');
+            // Redirect to page3.html
+            window.location.href = 'cover.html';
+          }
+        }
+    
+        // Update the last scroll position
+        lastScrollPosition = currentScrollPosition;
+      });
+      function navigateToCover() {
+        window.location.href = 'splashScreen.html'; // Adjust the URL if needed
+      }
+    </script>
+  </body>
+</html>

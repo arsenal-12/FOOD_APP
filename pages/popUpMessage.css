@@ -1,0 +1,104 @@
+.pop-up-message .line-14 {
+  transform: rotate(-138.915deg);
+  width: 13px;
+  height: 11.3px;
+}
+.pop-up-message .line-13 {
+  transform: rotate(-45deg);
+  width: 23.3px;
+  height: 23.3px;
+}
+.pop-up-message .container {
+  border-radius: 45px;
+  background: #EF2A39;
+  position: relative;
+  margin-bottom: 28px;
+  display: flex;
+  flex-direction: row;
+  padding: 33px 0 33.7px 0;
+  width: 90px;
+  box-sizing: border-box;
+}
+body {
+  width: 432px;
+  height: 700px;
+  width: 100vw; /* Set body width to full viewport width */
+  height: 100vh; /* Set body height to full viewport height */
+  margin: 0; /* Remove default margin */
+  overflow: hidden; /* Hide any overflowing content */
+  display: flex; /* Use flexbox to center content */
+  justify-content: center; /* Center content horizontally */
+  align-items: center; 
+  /* Center content vertically */
+}
+
+.pop-up-message {
+  overflow: hidden; /* Remove scrolling */
+  border-radius: 35px;
+  background: rgba(255, 255, 255, 0.8);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 266px 0;
+  box-sizing: border-box;
+}
+
+.pop-up-message .success {
+  margin: 0 5px 6px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Poppins';
+  font-weight: 700;
+  font-size: 30px;
+  color: #EF2A39;
+}
+.pop-up-message .your-payment-was-successful-areceipt-for-this-purchase-has-been-sent-to-your-email {
+  margin: 0 1px 70px 0;
+  display: inline-block;
+  text-align: center;
+  overflow-wrap: break-word;
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 14px;
+  color: #808080;
+}
+.pop-up-message .go-back {
+  overflow-wrap: break-word;
+  font-family: 'Roboto';
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.542;
+  color: #FFFFFF;
+}
+.pop-up-message .group-59 {
+  border-radius: 15px;
+  background: #EF2A39;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 16px 0 16px 1px;
+  width: 220px;
+  box-sizing: border-box;
+}
+.pop-up-message .frame-1 {
+  box-shadow: 0px 19px 47px -8px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  background: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 26px 0 27px 0;
+  width: 340px;
+  height: fit-content;
+  box-sizing: border-box;
+}
+.pop-up-message {
+  border-radius: 35px;
+  background: rgba(255, 255, 255, 0.8);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 266px 0;
+  box-sizing: border-box;
+}

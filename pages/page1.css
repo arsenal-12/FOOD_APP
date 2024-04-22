@@ -1,0 +1,498 @@
+.httpsrive-applogin .image {
+  background: url('../assets/images/img.png');
+  width: 100%;
+  height: 100%;
+}
+body{
+  width:100%;
+  overflow-x: auto; /* Always show horizontal scrollbar */
+  overflow-y: scroll; /* Always show vertical scrollbar */
+  
+}
+.httpsrive-applogin .div-login-page-animation-to-7-rs {
+  background: #3C2B4B;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 804px;
+  height: 810px;
+  box-sizing: border-box;
+}
+.httpsrive-applogin .vector {
+  margin-right: 39.1px;
+  width: 37.5px;
+  height: 40px;
+}
+.httpsrive-applogin .vector-1 {
+  margin-right: 38.8px;
+  width: 3.1px;
+  height: 40px;
+}
+.httpsrive-applogin .vector-2 {
+  margin-right: 38.8px;
+  width: 34.4px;
+  height: 40px;
+}
+.httpsrive-applogin .vector-3 {
+  width: 28.1px;
+  height: 40px;
+}
+.httpsrive-applogin .div-login-page-rive-logo-9-ez-nc {
+  margin: 0 120px 59.5px 0;
+  display: flex;
+  flex-direction: row;
+  width: 220px;
+  box-sizing: border-box;
+}
+.httpsrive-applogin .express-login-via-google-and-facebook {
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: -0.3px;
+  line-height: 1.429;
+  color: #888888;
+}
+.httpsrive-applogin .pform-fields-login-caption-8-q-7 {
+  margin: 0 91.9px 15.5px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  box-sizing: border-box;
+}
+.httpsrive-applogin .google {
+  margin-right: 25px;
+  width: 88.5px;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: -0.3px;
+  line-height: 3.125;
+  color: #888888;
+}
+.httpsrive-applogin .signin-google-png {
+  background: url('../assets/images/signinGooglePng.png');
+  margin: 15px 0;
+  width: 20px;
+  height: 20px;
+}
+.httpsrive-applogin .div {
+  background: #F1F1F1;
+  margin-right: 3px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 15px 0 20px;
+  width: 168.5px;
+  box-sizing: border-box;
+}
+.httpsrive-applogin .facebook {
+  margin-right: 41.4px;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: -0.3px;
+  line-height: 3.125;
+  color: #888888;
+}
+.httpsrive-applogin .signin-facebook-png {
+  background: url('../assets/images/signinFacebookPng.png');
+  margin: 15px 0;
+  width: 20px;
+  height: 20px;
+}
+.httpsrive-applogin .div-1 {
+  background: #F1F1F1;
+  display: flex;
+  flex-direction: row;
+  padding: 0 15px 0 20px;
+  box-sizing: border-box;
+}
+.httpsrive-applogin .div-form-fields-social-login-pib-6 {
+  border-radius: 10px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.httpsrive-applogin .div-form-fields-login-divider-mimcl {
+  border-radius: 1.5px;
+  background: #F1F1F1;
+  margin-bottom: 20px;
+  width: 340px;
+  height: 3px;
+}
+.httpsrive-applogin .log-in {
+  overflow-wrap: break-word;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 3.125;
+  color: #242424;
+}
+.httpsrive-applogin .button {
+  border-radius: 10px 10px 0 0;
+  background: #F1F1F1;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 0 19.9px;
+  width: 83.8px;
+  box-sizing: border-box;
+}
+.httpsrive-applogin .sign-up {
+  overflow-wrap: break-word;
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 3.125;
+  color: #888888;
+}
+.httpsrive-applogin .div-2 {
+  border-radius: 0 0 0 10px;
+  background: #FFFFFF;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 0 19.8px 0.5px 19.8px;
+  box-sizing: border-box;
+}
+.httpsrive-applogin .button-1 {
+  border-radius: 10px 10px 0 0;
+  background: #F1F1F1;
+  width: 92.9px;
+  box-sizing: border-box;
+}
+.httpsrive-applogin .div-3 {
+  background: #FFFFFF;
+  width: 163.3px;
+  height: 50px;
+}
+.httpsrive-applogin .div-form-fields-filler-crbrs {
+  background: #F1F1F1;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 163.3px;
+  height: 50px;
+  box-sizing: border-box;
+}
+.httpsrive-applogin .div-form-fields-login-signup-tabs-i-7-key {
+  display: flex;
+  flex-direction: row;
+  column-gap: 0px;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.httpsrive-applogin .email-or-username {
+  overflow-wrap: break-word;
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 16px;
+  color: #888888;
+}
+.httpsrive-applogin .input {
+  border-radius: 0 15px 0 0;
+  background: #F1F1F1;
+  margin-bottom: 3px;
+  padding: 15px 20px 16px 20px;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.httpsrive-applogin .password {
+  overflow-wrap: break-word;
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 16px;
+  color: #888888;
+}
+.httpsrive-applogin .input-1 {
+  background: #F1F1F1;
+  margin-bottom: 3px;
+  padding: 15px 20px 16px 20px;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.httpsrive-applogin .log-in-1 {
+  overflow-wrap: break-word;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 3.125;
+  color: #F1F1F1;
+}
+.httpsrive-applogin .button-2 {
+  border-radius: 0 0 10px 10px;
+  background: #303030;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 0 0.5px 0.3px;
+  width: 340px;
+  box-sizing: border-box;
+}
+.httpsrive-applogin .form {
+  margin-bottom: 19.5px;
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.httpsrive-applogin .forgot-password {
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: -0.3px;
+  line-height: 1.714;
+  color: #242424;
+}
+.httpsrive-applogin .link {
+  margin-left: 0.4px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  box-sizing: border-box;
+}
+.httpsrive-applogin .div-login-page-login-input-container-yn-8-tr {
+  background: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 636px;
+}
+.httpsrive-applogin .div-layout-v-2-container-dgh-3-d {
+  background: #1B1B1B;
+  display: flex;
+  flex-direction: row;
+  width: 1440px;
+  box-sizing: border-box;
+}
+.httpsrive-applogin .vector-4 {
+  margin-right: 39.1px;
+  width: 37.5px;
+  height: 40px;
+}
+.httpsrive-applogin .vector-5 {
+  margin-right: 38.8px;
+  width: 3.1px;
+  height: 40px;
+}
+.httpsrive-applogin .vector-6 {
+  margin-right: 38.8px;
+  width: 34.4px;
+  height: 40px;
+}
+.httpsrive-applogin .vector-7 {
+  width: 28.1px;
+  height: 40px;
+}
+.httpsrive-applogin .div-4 {
+  background: #111111;
+  display: flex;
+  flex-direction: row;
+  padding-top: 60px;
+  width: 1440px;
+  box-sizing: border-box;
+}
+.httpsrive-applogin .rive-inc-all-rights-reserved {
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+  color: #999999;
+}
+.httpsrive-applogin .p {
+  position: absolute;
+  left: 0px;
+  top: -30.3px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  box-sizing: border-box;
+}
+.httpsrive-applogin .all-trademarks-logos-and-brand-names-are-the-property-of-their-respective-owners {
+  position: absolute;
+  left: 0px;
+  top: -0.4px;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+  color: #999999;
+}
+.httpsrive-applogin .p-1 {
+  opacity: 0.65;
+  position: relative;
+  margin-bottom: 8.9px;
+  width: 400px;
+  height: 38.4px;
+}
+.httpsrive-applogin .link-terms-of-service {
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 500;
+  font-size: 16px;
+  text-decoration-line: underline;
+  line-height: 1.2;
+  color: #999999;
+}
+.httpsrive-applogin .p-2 {
+  margin-bottom: 10.2px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-self: flex-start;
+  box-sizing: border-box;
+}
+.httpsrive-applogin .link-privacy-policy {
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 500;
+  font-size: 16px;
+  text-decoration-line: underline;
+  line-height: 1.2;
+  color: #999999;
+}
+.httpsrive-applogin .p-3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-self: flex-start;
+  box-sizing: border-box;
+}
+.httpsrive-applogin .div-framer-3-m-0-o-4-u {
+  position: relative;
+  margin-top: 29.2px;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.httpsrive-applogin .group {
+  width: 16.3px;
+  height: 12.4px;
+}
+.httpsrive-applogin .link-1 {
+  margin: 3.8px 14.2px 3.8px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 16.3px;
+  height: 12.4px;
+  box-sizing: border-box;
+}
+.httpsrive-applogin .vector-10 {
+  width: 17.1px;
+  height: 15px;
+}
+.httpsrive-applogin .link-2 {
+  margin: 3.1px 10.6px 1.9px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 17.1px;
+  height: 15px;
+  box-sizing: border-box;
+}
+.httpsrive-applogin .image-1 {
+  width: 20px;
+  height: 20px;
+}
+.httpsrive-applogin .link-3 {
+  margin-right: 12px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  box-sizing: border-box;
+}
+.httpsrive-applogin .vector-13 {
+  width: 16px;
+  height: 16px;
+}
+.httpsrive-applogin .link-4 {
+  margin: 1.8px 13.9px 2.2px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 16px;
+  height: 16px;
+  box-sizing: border-box;
+}
+.httpsrive-applogin .vector-14 {
+  width: 16.2px;
+  height: 16.2px;
+}
+.httpsrive-applogin .link-5 {
+  margin: 1.9px 13.2px 1.9px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 16.2px;
+  height: 16.2px;
+  box-sizing: border-box;
+}
+.httpsrive-applogin .group-1 {
+  width: 17.5px;
+  height: 13px;
+}
+.httpsrive-applogin .link-6 {
+  margin: 3.5px 0 3.6px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 17.5px;
+  height: 13px;
+  box-sizing: border-box;
+}
+.httpsrive-applogin .div-framer-7-k-4076 {
+  margin-bottom: 104.7px;
+  display: flex;
+  flex-direction: row;
+  width: 166.9px;
+  height: fit-content;
+  box-sizing: border-box;
+}
+.httpsrive-applogin .div-framer-1-n-98-koq {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 998.7px;
+  height: fit-content;
+  box-sizing: border-box;
+}
+.httpsrive-applogin .after {
+  border-top: 1px solid rgba(0, 0, 0, 0.05);
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  height: 100%;
+}
+.httpsrive-applogin .footer {
+  background: #111111;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 60px 1.3px 61.3px 0;
+  width: 1440px;
+  box-sizing: border-box;
+}
+.httpsrive-applogin {
+  background: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 1440px;
+  box-sizing: border-box;
+}

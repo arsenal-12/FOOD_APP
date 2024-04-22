@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>product 2</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="product2.css" />
+    <style>
+      .dot-container {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+      }
+          /* Style for the scrollable container */
+          .scroll-container {
+            height: 100vh; /* Adjust as needed */
+            overflow-y: auto;
+          }
+          .dot {
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            background-color: black;
+            margin: 0 7px;
+            cursor: pointer;
+          }
+          .product2{
+            position: relative;
+            cursor: pointer;
+          }
+      
+</style>
+  </head>
+  <body>
+    <div class="scroll-container">
+
+    <div class="product-2" onclick="navigate1(event)">
+      <div class="line-6">
+      </div>
+      <div class="container-3">
+        <div class="arrow-left">
+          <img class="vector-1" src="../assets/vectors/vector20_x2.svg" />
+        </div>
+        <div class="search">
+          <img class="vector" src="../assets/vectors/vector10_x2.svg" />
+        </div>
+      </div>
+      <div class="group-19">
+        <img class="ellipse-8" src="../assets/vectors/ellipse82_x2.svg" />
+      </div>
+      <div class="hamburger-veggie-burger">
+      Hamburger Veggie Burger
+      </div>
+      <div class="group-9">
+        <div class="star">
+          <img class="vector-2" src="../assets/vectors/vector5_x2.svg" />
+        </div>
+        <span class="container">
+        4.8
+        </span>
+        <div class="line-3">
+        </div>
+        <span class="mins">
+        14 mins
+        </span>
+      </div>
+      <div class="enjoy-our-delicious-hamburger-veggie-burger-made-with-asavory-blend-of-fresh-vegetables-and-herbs-topped-with-crisp-lettuce-juicy-tomatoes-and-tangy-pickles-all-served-on-asoft-toasted-bun">
+      Enjoy our delicious Hamburger Veggie Burger, made with a savory blend of fresh vegetables and herbs, topped with crisp lettuce, juicy tomatoes, and tangy pickles, all served on a soft, toasted bun. 
+      </div>
+      <div class="container-4">
+        <div class="group-22">
+          <div class="spicy">
+          Spicy
+          </div>
+          <img class="group-20" src="../assets/vectors/group201_x2.svg" />
+          <div class="container-5">
+            <span class="mild">
+            Mild
+            </span>
+            <span class="hot">
+            Hot
+            </span>
+          </div>
+        </div>
+        <div class="container">
+          <div class="container-1">
+            <div class="group-27">
+              <span class="portion">
+              Portion
+              </span>
+            </div>
+            <div class="group-25">
+              <div class="line-7">
+              </div>
+            </div>
+          </div>
+          <div class="group-26">
+            <div class="container-1">
+            1
+            </div>
+            <div class="group-24">
+              <img class="group-23" src="../assets/vectors/group234_x2.svg" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-2">
+        <div class="group-29">
+          <span class="container-2">
+          $9.99
+          </span>
+        </div>
+        <div class="group-28">
+          <span class="order-now">
+          ORDER NOW
+          </span>
+        </div>
+      </div>
+    
+      <div class="dot-container">
+        <div class="dot" data-page="splashScreen.html"></div>
+        <div class="dot" data-page="product1.html"></div>
+        <div class="dot" data-page="product2.html"></div>
+        <div class="dot" data-page="product3.html"></div>
+        <div class="dot" data-page="product4.html"></div>
+        <div class="dot" data-page="product5.html"></div>
+        <div class="dot" data-page="payment.html"></div>
+        <div class="dot" data-page="popUpMessage.html"></div>
+    </div>
+    <div class="image-10">
+    </div>
+    </div>
+    
+    </div>
+    </div>
+
+  </div>
+  <script>
+    function navigate1(event) {
+      const width = event.currentTarget.clientWidth;
+      const clickX = event.clientX - event.currentTarget.getBoundingClientRect().left;
+      const targetPage = clickX > width / 2 ? 'product3.html' : 'product1.html';
+      window.location.href = targetPage;}
+    function navigate(event) {
+      const width = event.currentTarget.clientWidth;
+      const clickX = event.clientX - event.currentTarget.getBoundingClientRect().left;
+      const targetPage = clickX > width / 2 ? 'product3.html' : 'product1.html';
+      window.location.href = targetPage;
+    }
+  </script>
+  </body>
+</html>
